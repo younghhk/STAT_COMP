@@ -1,7 +1,4 @@
-# Matrix Factorizations
-
-
-
+# Parameteric Survival Regression
 
 
 
