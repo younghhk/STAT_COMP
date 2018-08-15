@@ -20,25 +20,25 @@ This GitHub serves as a repository for the statistical computing courses STT 802
 
 **Module 2 (Linear systems)**
 
-  (c)	Matrix Computations in R
-  (d)	Ordinary Least Squares (point estimates, SEs, t-test, p-values)
-  (e)	Matrix factorizations (QR and SVD, application to OLS estimation).
+  1. Matrix Computations in R
+  2. Ordinary Least Squares (point estimates, SEs, t-test, p-values)
+  3. Matrix factorizations (QR and SVD, application to OLS estimation).
 
 **Module 3 (Maximum likelihood)**
 
-  (a)	Maximization using general purpose optimization algorithms (application: 
-  (b)	logistic regression)
-  (c)	The EM-Algorithm (application: dealing with missing data in survival regression)
+  1. Maximization using general purpose optimization algorithms (application: 
+  2. Logistic regression)
+  3. The EM-Algorithm (application: dealing with missing data in survival regression)
 
 **Module 4 (Monte Carlo Methods)**
 
-  (a)	Sampling Random Variables
-  (b)	Monte Carlo Methods (application: power analyses)
+  1. Sampling Random Variables
+  2. Monte Carlo Methods (application: power analyses)
 
 **Module 5 (Resampling methods)**
 
-  (a)	Bootstrap (application: SEs for odds ratios in logistic regression)
-  (b)	Permutation test (p-values for odds ratios in logistic regression)
+  1.	Bootstrap (application: SEs for odds ratios in logistic regression)
+  2.	Permutation test (p-values for odds ratios in logistic regression)
 
 
 
