@@ -34,7 +34,7 @@ This GitHub serves as a repository for the statistical computing courses STT 802
 **Module 4 (Monte Carlo Methods)**
 
   1. [Sampling Random Variables](https://github.com/gdlc/STAT_COMP/blob/master/SAMPLING.md)
-  2. [Monte Carlo Methods (application: power analyses)](https://github.com/gdlc/STAT_COMP/blob/master/MONTE_CARLO.md)
+  2. [Power Analysis](https://github.com/gdlc/STAT_COMP/blob/master/POWER.md)
 
 **Module 5 (Resampling methods)**
 
