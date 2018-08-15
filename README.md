@@ -20,9 +20,9 @@ This GitHub serves as a repository for the statistical computing courses STT 802
 
 **Module 2 (Linear systems)**
 
-  1. Matrix Computations in R
-  2. Ordinary Least Squares (point estimates, SEs, t-test, p-values)
-  3. Matrix factorizations (QR and SVD, application to OLS estimation).
+  1. [Matrix Computations in R](https://github.com/gdlc/STAT_COMP/blob/master/MATRIX.md)
+  2. [Ordinary Least Squares (point estimates, SEs, t-test, p-values)](https://github.com/gdlc/STAT_COMP/blob/master/OLS.md)
+  3. [Matrix factorizations (QR and SVD, application to OLS estimation)](https://github.com/gdlc/STAT_COMP/blob/master/FACTOR.md)
 
 **Module 3 (Maximum likelihood)**
 
