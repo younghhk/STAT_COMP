@@ -15,9 +15,8 @@ This GitHub serves as a repository for the statistical computing courses STT 802
 
 
 **Module 1 (Intro)**
-
-  A.	[Introduction to R](https://github.com/QuantGen/RIntro)
-  B.	[Data preparation and descriptive analyses]()   
+  1. [Introduction to R](https://github.com/QuantGen/RIntro)
+  2.	[Data preparation and descriptive analyses]()   
 
 **Module 2 (Linear systems)**
 
