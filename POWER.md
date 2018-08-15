@@ -1,4 +1,4 @@
-# Monte Carlo Methos
+# POWER ANALYSIS
 
 
 
