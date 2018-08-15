@@ -26,19 +26,20 @@ This GitHub serves as a repository for the statistical computing courses STT 802
 
 **Module 3 (Maximum likelihood)**
 
-  1. Maximization using general purpose optimization algorithms (application: 
-  2. Logistic regression)
-  3. The EM-Algorithm (application: dealing with missing data in survival regression)
-
+  1. [Maximization using general purpose optimization algorithms](https://github.com/gdlc/STAT_COMP/blob/master/OPTIM.md)
+  2. [Logistic Regression](https://github.com/gdlc/STAT_COMP/blob/master/LOGISTIC_REG.md)
+  3. [The EM-Algorithm](https://github.com/gdlc/STAT_COMP/blob/master/EM.md)
+  4. [Parametric Survival Regression](https://github.com/gdlc/STAT_COMP/blob/master/SURVREG.md)
+  
 **Module 4 (Monte Carlo Methods)**
 
-  1. Sampling Random Variables
-  2. Monte Carlo Methods (application: power analyses)
+  1. [Sampling Random Variables](https://github.com/gdlc/STAT_COMP/blob/master/SAMPLING.md)
+  2. [Monte Carlo Methods (application: power analyses)](https://github.com/gdlc/STAT_COMP/blob/master/MONTE_CARLO.md)
 
 **Module 5 (Resampling methods)**
 
-  1.	Bootstrap (application: SEs for odds ratios in logistic regression)
-  2.	Permutation test (p-values for odds ratios in logistic regression)
+  1.	[Bootstrap (application: SEs for odds ratios in logistic regression)](https://github.com/gdlc/STAT_COMP/blob/master/BOOTSTRAP.md)
+  2.	[Permutation test (p-values for odds ratios in logistic regression)](https://github.com/gdlc/STAT_COMP/blob/master/PERMUTATIONS.md)
 
 
 
