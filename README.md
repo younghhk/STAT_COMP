@@ -21,10 +21,10 @@ This GitHub serves as a repository for the statistical computing courses STT 802
 
 **Module 2 (Statistical Models)**
 
-  1. [Linear regression models (point estimates, SEs, t-test, p-values)](https://github.com/gdlc/STAT_COMP/blob/master/LM.md)
-  2. [Generalized linear models (GLM)](https://github.com/gdlc/STAT_COMP/blob/master/GLM.md)
-  3. [Survival models](https://github.com/gdlc/STAT_COMP/blob/master/SURVREG.md)
-  4. [Quantile regression models](https://github.com/gdlc/STAT_COMP/blob/master/QR.md)
+  1. [Linear regression models (point estimates, SEs, t-test, p-values)](https://github.com/younghhk/STAT_COMP/blob/master/LM.md)
+  2. [Generalized linear models (GLM)](https://github.com/younghhk/STAT_COMP/blob/master/GLM.md)
+  3. [Survival models](https://github.com/younghhk/STAT_COMP/blob/master/SURVREG.md)
+  4. [Quantile regression models](https://github.com/younghhk/STAT_COMP/blob/master/QR.md)
 
 **Module 3 (High-dimensional Data Analysis)**
 
