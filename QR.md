@@ -1,4 +1,4 @@
-# Quantile regression model
+# Quantile regression models
 
 
 
