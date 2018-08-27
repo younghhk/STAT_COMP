@@ -28,8 +28,8 @@ This GitHub serves as a repository for the statistical computing courses STT 802
 
 **Module 3 (High-dimensional Data Analysis)**
 
-  1. [Regularized regression methods](https://github.com/gdlc/STAT_COMP/blob/master/PENREG.MD)
-  2. [Variable screening methods](https://github.com/gdlc/STAT_COMP/blob/master/VS.md) 
+  1. [Regularized regression methods](https://github.com/younghhk/STAT_COMP/blob/master/PENREG.md)
+  2. [Variable screening methods](https://github.com/younghhk/STAT_COMP/blob/master/VS.md) 
 
 **Module 4 (Maximum Likelihood)**
 
