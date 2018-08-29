@@ -16,7 +16,7 @@ This GitHub serves as a repository for the statistical computing courses STT 802
 
 **Module 1 (Introduction)**
 
-  1. [Rstudio/R Markdown](https://github.com/younghhk/STAT_COMP/blob/master/Rmarkdown.md)
+  1. [R Studio/R Markdown](https://github.com/younghhk/STAT_COMP/blob/master/Rmarkdown.md)
   2. [Introduction to R](https://github.com/younghhk/STAT_COMP/blob/master/RIntro.md)
   3. [Data preparation and descriptive analyses](https://github.com/younghhk/STAT_COMP/blob/master/DESCRIPTIVE_STATS.md) 
  
