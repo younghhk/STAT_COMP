@@ -1,4 +1,4 @@
- # R studio
+ # R Studio
  
    Integrates into a single window:
  -   R console (CLI)
