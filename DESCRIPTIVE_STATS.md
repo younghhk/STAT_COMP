@@ -2,11 +2,34 @@
 <div id="Outline" />
 
 ## Outline
+  * [R Workspace](#workspace) 
   * [Reading/writing ASCII files](#read-write) 
   * [Descriptive statistics](#descriptives)
   * [Plots](#plots) 
     
-<div id="data.frame" />
+<div id="workspace" />
+### R Workspace
+```R
+## save to the current working directory
+save.image()
+## just checking what the current working directory is
+getwd()
+## save to a specific file and location
+save.image("C:\\STT802\HW1.RData")
+##list the objects in the current workspace
+ls()  
+## change to mydir
+setwd("c:/docs/mydir")   
+```
+  
+ ### Reading
+   DATA2=read.table('DATA.txt',header=T) # you can add sep="," or sep"\t" for comma and tab-spearated files, respectively
+   head(DATA)
+   head(DATA2)
+   
+```
+[Back to Outline](#Outline)
+
 
 
 <div id="read-write" />
