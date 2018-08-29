@@ -38,6 +38,7 @@ read.table("foo.csv", header = TRUE, sep = ",", row.names = 1)
 ### Alternatively
 write.csv(x, file = "foo.csv")
 read.csv("foo.csv", row.names = 1)
+
 ## or without row names
 write.csv(x, file = "foo.csv", row.names = FALSE)
 read.csv("foo.csv")
