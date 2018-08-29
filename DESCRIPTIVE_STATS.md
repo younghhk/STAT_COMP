@@ -8,6 +8,7 @@
   * [Plots](#plots) 
     
 <div id="workspace" />
+
 ### R Workspace
 ```R
 ## save to the current working directory
@@ -21,16 +22,6 @@ ls()  
 ## change to mydir
 setwd("c:/docs/mydir")   
 ```
-  
- ### Reading
-   DATA2=read.table('DATA.txt',header=T) # you can add sep="," or sep"\t" for comma and tab-spearated files, respectively
-   head(DATA)
-   head(DATA2)
-   
-```
-[Back to Outline](#Outline)
-
-
 
 <div id="read-write" />
 
