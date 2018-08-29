@@ -3,6 +3,7 @@
 
 ## Outline
   * [R Workspace](#workspace) 
+  * [Reading/writing CSV files](#read-write-csv) 
   * [Reading/writing ASCII files](#read-write) 
   * [Descriptive statistics](#descriptives)
   * [Plots](#plots) 
@@ -23,8 +24,28 @@ ls()  
 setwd("C:/mydir")   
 ```
 
-<div id="read-write" />
+<div id="read-write-csv" />
 
+### Writing/reading table format
+```R
+##To write a CSV file for input to Excel 
+write.table(x, file = "foo.csv", sep = ",", col.names = NA,
+            qmethod = "double")
+           
+## and to read this file back into R one needs
+read.table("foo.csv", header = TRUE, sep = ",", row.names = 1)
+
+### Alternatively
+write.csv(x, file = "foo.csv")
+read.csv("foo.csv", row.names = 1)
+## or without row names
+write.csv(x, file = "foo.csv", row.names = FALSE)
+read.csv("foo.csv")
+```
+ [Back to Outline](#Outline)
+ <div id="read-write" />
+ 
+        
 ### Writing/reading ASCII files
 ```R
   # Writing
