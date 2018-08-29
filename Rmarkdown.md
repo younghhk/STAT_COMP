@@ -32,7 +32,6 @@ Document output formats: HTML, PDF, Word
 * Emphasis
 ```{markdown}
 *italic*   **bold**
-_italic_   __bold__
 ```
 * Headers
 ```{markdown}
