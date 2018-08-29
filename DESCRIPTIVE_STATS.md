@@ -16,11 +16,11 @@ save.image()
 ## just checking what the current working directory is
 getwd()
 ## save to a specific file and location
-save.image("C:\\STT802\HW1.RData")
+save.image("C:/mydir/filename.RData")
 ##list the objects in the current workspace
 ls()  
 ## change to mydir
-setwd("c:/docs/mydir")   
+setwd("C:/mydir")   
 ```
 
 <div id="read-write" />
