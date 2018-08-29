@@ -27,4 +27,20 @@
 - [Compiling Notebooks](https://support.rstudio.com/hc/en-us/articles/200552276-Creating-Notebooks-from-R-Scripts), which describes how to compile HTML, PDF, or MS Word notebooks from R scripts.
 Document output formats: HTML, PDF, Word
 
+# R Markdown Syntax
+
+* Emphasis
+```{markdown}
+*italic*   **bold**
+_italic_   __bold__
+```
+* Headers
+```{markdown}
+# Header 1
+## Header 2
+### Header 3
+```
+
+
+
 [Back](https://github.com/younghhk/STAT_COMP/)
