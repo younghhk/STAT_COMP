@@ -2,9 +2,9 @@
 
 1. Write a function which returns the  odds ratio, CI, and P value of the univariate logistic regression model.
 
-2. Using the `recid.csv' dataset, fit the univariate logistic regression model with the response variable being "arrest".  Calculate the odds ratio, CI, and P value for financial, age, mariied, paroled, educ, and week variable.
+2. Using the `recid.csv' dataset, fit the univariate logistic regression model with the response variable being "arrest".  Calculate the odds ratio, CI, and P value for financial, age, married, paroled, educ, and week variable.
 
-The `recid.csv` data set contains information about 432 inmates who were released from Maryland state prisons in the early 1970s. The aim of this research was to determine the efficacy of financial aid to released inmates asa means of reducing recidivism. The data set used here contains the folliwn gvariables. 
+The `recid.csv` data set contains information about 432 inmates who were released from Maryland state prisons in the early 1970s. The aim of this research was to determine the efficacy of financial aid to released inmates as a means of reducing recidivism. The data set used here contains the following variables. 
 
 * arrest: has a value of 1 if arrested; otherwise, ARREST has a value of 0.
 * week: is the week of first arrest; WEEK has a value of 52 if not arrested.
@@ -14,8 +14,8 @@ The `recid.csv` data set contains information about 432 inmates who were release
 * paroled: has a value of 1 if released on parole: otherwise, PARO has a value of 0.
 * married: has a value of 1 if the inmate was married at the time of release; otherwise, MAR has a value of 0.
 * educ: is the highest level of completed schooling, coded as
-       ** 2=6th grade or less;
-        ** 3=7th 9th grade;
-        ** 4=10th to 11th grade;
-        ** 5=12 th grade;
-        ** 6=some college;
+          2=6th grade or less;
+        3=7th 9th grade;
+        4=10th to 11th grade;
+        5=12th grade;
+         6=some college;
