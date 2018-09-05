@@ -9,9 +9,10 @@ This GitHub serves as a repository for the statistical computing courses STT 802
 
 **Time & Place** M/W 	3:00 PM - 4:20 PM. E109 Fee Hall.
 
-**Note:**  If you still have trouble creating pdf file using R markdown. Please read this tip (Thanks to Hongjie for figuring  this out!). 
-*tinytex* is a custom LaTeX distribution based on TeX Live that is small in size but functions well in most cases, especially for R users.  *tinytex* is easier to install than *miktex* and works well with Rstudio. 
-More detail about *tinytex* can be found in: https://yihui.name/tinytex/  
+**Note:**  If you still have trouble creating pdf file using RMarkdown, please read this tip (Thanks to Hongjie for figuring  this out!). 
+
+*TinyTex* is a custom LaTeX distribution based on TeX Live that is small in size but functions well in most cases, especially for R users.  *TinyTex* is easier to install than *MikTex* and works well with Rstudio. 
+More detail about *TinyTex* can be found in: https://yihui.name/tinytex/  
 
 ## Modules
 
