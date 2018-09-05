@@ -49,4 +49,4 @@ This GitHub serves as a repository for the statistical computing courses STT 802
   2.	[Permutation test (p-values for odds ratios in logistic regression)](https://github.com/gdlc/STAT_COMP/blob/master/PERMUTATIONS.md)
 
 ## Homeworks
-1. [HW1](https://github.com/younghhk/STAT_COMP/blob/master/hw1.md)
+1. [HW1](https://github.com/younghhk/STAT_COMP/blob/master/HW1.md)
