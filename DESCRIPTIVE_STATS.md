@@ -95,8 +95,8 @@ Note: C=(F-32)/1.8
 
 
 
-2. Import `recid.csv` file and provide the appropriate summary statistics (depending on the data types) of each column. 
-
+2. Set working directory in your local folder. Import `recid.csv` file and provide the appropriate summary statistics (depending on the data types) of each column. Create a new column, termed `married2`, which assigns 1 to "Yes",  0 to "No".
+Write the updated csv file with `married2` column,  `recid_new.csv`,  in your working directory. 
 
 3. Create  pdf reports of #1-#2  using RMarkdown/knitr. 
 Give the title of report as "Last_name.First_name.Inclass1.pdf"
