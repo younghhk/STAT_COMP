@@ -14,8 +14,8 @@ The `recid.csv` data set contains information about 432 inmates who were release
 * paroled: has a value of 1 if released on parole: otherwise, PARO has a value of 0.
 * married: has a value of 1 if the inmate was married at the time of release; otherwise, MAR has a value of 0.
 * educ: is the highest level of completed schooling, coded as
-        2=6th grade or less
-        3=7th 9th grade
-        4=10th to 11th grade
-        5=12 th grade
-        6=some college
+       ** 2=6th grade or less;
+        ** 3=7th 9th grade;
+        ** 4=10th to 11th grade;
+        ** 5=12 th grade;
+        ** 6=some college;
