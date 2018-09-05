@@ -84,3 +84,20 @@ read.csv("foo.csv")
    plot(density(DATA$height))
 ```
 [Back to Outline](#Outline)
+
+
+
+### In-class Assignment
+
+#1. Define a function `F_to_D` that convers temperatures from Fahrenheit to Celsius.
+Then print 32F (freezing point of water) in Celsius.
+Note: C=(F-32)/1.8
+
+
+
+#2. Import `test.csv` file and calculate the summary statistics of each column. 
+
+
+#3. Create  pdf reports of #1-#2  using RMarkdown/knitr. 
+Give the title of report as "Last_name.First_name.Inclass1.pdf"
+Then upload in the D2L:Inclass:Inclass1 folder.
