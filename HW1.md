@@ -1,4 +1,4 @@
-### HW 1
+### Homework 1
 **Due: Wednesday, 9/12/2018, in class.**
 
 **Note:** Students are required to submit their homework as both PDF file and hardcopy by the due date of the assignment.
