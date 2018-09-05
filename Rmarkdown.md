@@ -26,6 +26,7 @@
 - [R Markdown Reference Guide (PDF)](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf), a more comprehensive reference guide to markdown, knitr, and output format 
 - [Compiling Notebooks](https://support.rstudio.com/hc/en-us/articles/200552276-Creating-Notebooks-from-R-Scripts), which describes how to compile HTML, PDF, or MS Word notebooks from R scripts.
 Document output formats: HTML, PDF, Word
+-[Having installed R and RStudio before installing MikTeX?](https://medium.com/@sorenlind/create-pdf-reports-using-r-r-markdown-latex-and-knitr-on-windows-10-952b0c48bfa9)
 
 # R Markdown Syntax
 
