@@ -29,7 +29,7 @@ df <- data.frame(x,y)
 We will regress x on y, after the construction of the data set.
 
 
-## use R build-in OLS estimaor (lm())
+## Use R build-in OLS estimaor (lm())
 ```{r,eval=FALSE}
 fit = lm(y ~ x, data=df)
 summary(fit)
@@ -40,8 +40,7 @@ They must be  equivalent.
 
 ```{r, eval=FALSE}
 ## build OLS estimator manually
----
-
+```
 
 
 
