@@ -21,7 +21,7 @@ set.seed(12345)
 x <- rnorm(100,160,sd = 15)
  
 
-y <- x-80+1.02*(x)
+y <- 80+1.02*(x)
  
 #  join height and weight in data frame
 df <- data.frame(x,y)
