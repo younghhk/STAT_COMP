@@ -3,7 +3,7 @@
 
 
 
-
+[Note](https://github.com/younghhk/STAT_COMP/)
 
 
 
