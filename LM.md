@@ -23,7 +23,7 @@ x <- rnorm(100,160,sd = 15)
 
 y <- 80+1.02*(x)
  
-#  join height and weight in data frame
+#  join x and y in data frame
 df <- data.frame(x,y)
 ```
 We will regress x on y, after the construction of the data set.
