@@ -3,7 +3,7 @@
 
 
 
-[Note](https://github.com/younghhk/STAT_COMP/)
+[Note](https://github.com/younghhk/STAT_COMP/blob/master/M2_linear.html)
 
 
 
