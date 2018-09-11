@@ -20,6 +20,7 @@
 
  To learn more see:
  
+- Using R Markdown for Class Reports(http://www.stat.cmu.edu/~cshalizi/rmarkdown/)
 - [Markdown Basics](https://markdown-guide.readthedocs.io/en/latest/basics.html), which describes the most commonly used markdown constructs.
 - [R Code Chunks](https://rmarkdown.rstudio.com/lesson-3.html), which goes into more depth on customizing the behavior of embedded R code.
 - [R Markdown Cheat Sheet (PDF)](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf), a quick guide to the most commonly used markdown syntax, knitr options, and output formats.
