@@ -20,7 +20,7 @@
 
  To learn more see:
  
-- [Using R Markdown for Class Reports] (http://www.stat.cmu.edu/~cshalizi/rmarkdown/)
+- [Using R Markdown for Class Reports](http://www.stat.cmu.edu/~cshalizi/rmarkdown/)
 - [Markdown Basics](https://markdown-guide.readthedocs.io/en/latest/basics.html), which describes the most commonly used markdown constructs.
 - [R Code Chunks](https://rmarkdown.rstudio.com/lesson-3.html), which goes into more depth on customizing the behavior of embedded R code.
 - [R Markdown Cheat Sheet (PDF)](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf), a quick guide to the most commonly used markdown syntax, knitr options, and output formats.
@@ -28,7 +28,7 @@
 - [Compiling Notebooks](https://support.rstudio.com/hc/en-us/articles/200552276-Creating-Notebooks-from-R-Scripts), which describes how to compile HTML, PDF, or MS Word notebooks from R scripts.
 Document output formats: HTML, PDF, Word
 - [Having installed R and RStudio before installing MikTeX?](https://medium.com/@sorenlind/create-pdf-reports-using-r-r-markdown-latex-and-knitr-on-windows-10-952b0c48bfa9)
-- Note:  *TinyTex* is a custom LaTeX distribution based on TeX Live that is small in size but functions well in most cases, especially for R users.  *TinyTex* is easier to install than *MikTex* and works well with Rstudio. More detail about *TinyTex* can be found in: https://yihui.name/tinytex/  
+- Note:  *TinyTex* is a custom LaTeX distribution based on TeX Live that is small in size but functions well in most cases, especially for `R` users.  *TinyTex* is easier to install than *MikTex* and works well with Rstudio. More detail about *TinyTex* can be found in: https://yihui.name/tinytex/  
 
 
 [Back](https://github.com/younghhk/STAT_COMP/)
