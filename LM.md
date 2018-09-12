@@ -17,10 +17,8 @@ rm(list=ls())
 #  set seed for reproducibility
 set.seed(12345)
  
-#  define y
+#  define x and y
 x <- rnorm(100,160,sd = 15)
- 
-
 y <- 80+1.02*(x)+rnorm(100,0,1)
  
 #  join x and y in data frame
