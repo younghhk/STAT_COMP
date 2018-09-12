@@ -36,6 +36,7 @@ summary(fit)
 We will also construct the OLS estimator manually and compare the results to the lm() output.
 They must be  equivalent.
 
+## Inclass Assignment #2
 ```{r, eval=FALSE}
 ## build OLS estimator manually
 
