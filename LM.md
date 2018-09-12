@@ -46,16 +46,13 @@ beta<-
 ## calculate the variance-covarinace matrix of coefficients
 VC<-
 
-## construct  the 100(1-alplha)% CI for beta
-lower_bound=
-upper_bound=
 
 ## caluclate the p-values
 p_value<-
 
 ## print out all information
-result <- as.data.frame(cbind(c("(Intercept)","x"), beta,se,lower_bound, upper_bound, p_value))
-names(result) <- c("Coefficients:","Estimate", "Std. Error", "Lower bound","Upper bound", "Pr(>|t|)")
+result <- as.data.frame(cbind(c("(Intercept)","x"), beta,se, p_value))
+names(result) <- c("Coefficients:","Estimate", "Std. Error", "Pr(>|t|)")
 
 ## compare the built-in `lm`function and manual output
 summary(fit)  #the built-in lm function output
