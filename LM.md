@@ -19,7 +19,7 @@ set.seed(12345)
  
 #  define x and y
 x <- rnorm(100,160,sd = 15)
-y <- 80+1.02*(x)+rnorm(100,0,1)
+y <- 80+1.02*x+rnorm(100,0,1)
  
 #  join x and y in data frame
 df <- data.frame(x,y)
