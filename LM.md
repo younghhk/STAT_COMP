@@ -38,6 +38,16 @@ They must be  equivalent.
 
 ```{r, eval=FALSE}
 ## build OLS estimator manually
+
+## estimate the coefficeints beta
+
+## calculate the variance-covarinace matrix of coefficients
+
+## construct  the 100(1-alplha)% CI for beta
+
+## caluclate the p-values
+
+## print out all information
 ```
 
 
