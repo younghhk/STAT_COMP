@@ -6,7 +6,7 @@ All electronic submissions should follow the following naming convention: last n
 
 
 
-**Problem 1 (Linear models).** Write an R code to construct the 100(1-alplha)% CI for beta manually. Using the dataset from Inlcass 2, give the CI for beta.
+**Problem 1 (Linear models).** Write an R code to construct the 95% CI for beta manually. Using the dataset from Inlcass 2, give the CI for beta.
 
 
 
