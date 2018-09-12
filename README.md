@@ -9,7 +9,7 @@ This GitHub serves as a repository for the statistical computing courses STT 802
 
 **Time & Place** M/W 	3:00 PM - 4:20 PM. E109 Fee Hall.
 
-**Office hours** Tu 10:00 AM-12:00 PM (Wells Hall C435) or by appointment. 
+**Office hours** Tu 11:30 AM-12:30 PM (Wells Hall C435) or by appointment. 
 
 ## Modules
 
