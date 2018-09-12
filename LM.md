@@ -41,12 +41,17 @@ They must be  equivalent.
 ## build OLS estimator manually
 
 ## estimate the coefficeints beta
+beta<- 
 
 ## calculate the variance-covarinace matrix of coefficients
+VC<-
 
 ## construct  the 100(1-alplha)% CI for beta
+lower_bound=
+upper_bound=
 
 ## caluclate the p-values
+p_value<-
 
 ## print out all information
 result <- as.data.frame(cbind(c("(Intercept)","x"), beta,se,lower_bound, upper_bound, p_value))
