@@ -45,7 +45,7 @@ beta<-
 
 ## calculate the variance-covarinace matrix of coefficients
 VC<-
-
+se<-
 
 ## caluclate the p-values
 p_value<-
