@@ -33,7 +33,7 @@ fit = lm(y ~ x, data=df)
 summary(fit)
 ```
 
-We will also construct the OLS estimator manually and compare the results to the lm() output (HW).
+We will also construct the OLS estimator manually and compare the results to the lm() output.
 They must be  equivalent.
 
 ```{r, eval=FALSE}
