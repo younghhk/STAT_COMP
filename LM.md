@@ -57,7 +57,7 @@ p_value<-
 result <- as.data.frame(cbind(c("(Intercept)","x"), beta,se,lower_bound, upper_bound, p_value))
 names(result) <- c("Coefficients:","Estimate", "Std. Error", "Lower bound","Upper bound", "Pr(>|t|)")
 
-## compare `lm` and manual output
+## compare the built-in `lm`function and manual output
 summary(fit)  #the built-in lm function output
 result  #manual output
 ```
