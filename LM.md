@@ -53,13 +53,13 @@ beta <- solve(t(X)%*%X)%*%t(X)%*%y
 res <- as.matrix(y-X%*%beta)
  
 ## define the number of observations (n) and the number of
-#  parameters (k)
+#  parameters (p)
 n <- nrow(df)
 p <- ncol(X)
  
 ## calculate the Variance-Covariance matrix (VCV)
-#  VCV = (1/(n-k))res'res(X'X)^(-1)
-VCV <- 1/(n-k) * as.numeric(t(res)%*%res) * solve(t(X)%*%X)
+#  VCV = (1/(n-p))res'res(X'X)^(-1)
+VCV <- 1/(n-p) * as.numeric(t(res)%*%res) * solve(t(X)%*%X)
  
 ## calculate standard errors (se) of coefficients
 se <- sqrt(diag(VCV))
@@ -77,8 +77,8 @@ names(output) <- c("Coefficients:","Estimate",
                    "Std. Error","Pr(>|t|)")
  
 ## compare the built-in `lm`function and manual output
-summary(fit)  #the built-in lm function output
-result  #manual output
+# summary(fit)  
+
 ```
 
 
