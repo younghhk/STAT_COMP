@@ -39,21 +39,43 @@ They must be  equivalent.
 ## Inclass Assignment #2
 ```{r, eval=FALSE}
 ## build OLS estimator manually
-
-## estimate the coefficeints beta
-beta<- 
-
-## calculate the variance-covarinace matrix of coefficients
-VC<-
-se<-
-
-## caluclate the p-values
-p_value<-
-
-## print out all information
-result <- as.data.frame(cbind(c("(Intercept)","x"), beta,se, p_value))
-names(result) <- c("Coefficients:","Estimate", "Std. Error", "Pr(>|t|)")
-
+ 
+#  define X matrix and y vector
+X <- as.matrix(cbind(1,df$x))
+y <- as.matrix(df$y)
+ 
+#  estimate the coeficients beta
+#  beta = ((X'X)^(-1))X'y
+beta <- solve(t(X)%*%X)%*%t(X)%*%y
+ 
+## calculate residuals
+#  res = y - beta1 - beta2*X2
+res <- as.matrix(y-X%*%beta)
+ 
+## define the number of observations (n) and the number of
+#  parameters (k)
+n <- nrow(df)
+p <- ncol(X)
+ 
+## calculate the Variance-Covariance matrix (VCV)
+#  VCV = (1/(n-k))res'res(X'X)^(-1)
+VCV <- 1/(n-k) * as.numeric(t(res)%*%res) * solve(t(X)%*%X)
+ 
+## calculate standard errors (se) of coefficients
+se <- sqrt(diag(VCV))
+ 
+## calculate the p-values
+p_value <- rbind(2*pt(abs(beta[1]/se[1]), df=n-p,
+                      lower.tail= FALSE),
+                 2*pt(abs(beta[2]/se[2]), df=n-p,
+                      lower.tail= FALSE))
+ 
+## combine all necessary information
+output <- as.data.frame(cbind(c("(Intercept)","x"),
+                                beta,se,p_value))
+names(output) <- c("Coefficients:","Estimate", 
+                   "Std. Error","Pr(>|t|)")
+ 
 ## compare the built-in `lm`function and manual output
 summary(fit)  #the built-in lm function output
 result  #manual output
