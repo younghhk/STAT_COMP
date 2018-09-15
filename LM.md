@@ -65,16 +65,11 @@ VCV <- 1/(n-p) * as.numeric(t(res)%*%res) * solve(t(X)%*%X)
 se <- sqrt(diag(VCV))
  
 ## calculate the p-values
-p_value <- rbind(2*pt(abs(beta[1]/se[1]), df=n-p,
-                      lower.tail= FALSE),
-                 2*pt(abs(beta[2]/se[2]), df=n-p,
-                      lower.tail= FALSE))
+p_value <- rbind(2*pt(abs(beta[1]/se[1]), df=n-p, lower.tail= FALSE), 2*pt(abs(beta[2]/se[2]), df=n-p, lower.tail= FALSE))
  
 ## combine all necessary information
-output <- as.data.frame(cbind(c("(Intercept)","x"),
-                                beta,se,p_value))
-names(output) <- c("Coefficients:","Estimate", 
-                   "Std. Error","Pr(>|t|)")
+output <- as.data.frame(cbind(c("(Intercept)","x"),beta,se,p_value))
+names(output) <- c("Coefficients:","Estimate", "Std. Error","Pr(>|t|)")
  
 ## compare the built-in `lm`function and manual output
 # summary(fit)  
