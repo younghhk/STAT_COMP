@@ -74,7 +74,6 @@ names(output) <- c("Coefficients:","Estimate", "Std. Error","Pr(>|t|)")
  
 ## compare the built-in `lm`function and manual output
 # summary(fit)  
-
 ```
 
 
