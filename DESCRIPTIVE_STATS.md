@@ -92,13 +92,19 @@ read.csv("foo.csv")
 1. Define a function `F_to_D` that convers temperatures from Fahrenheit to Celsius.
 Then print 32F (freezing point of water) in Celsius.
 Note: C=(F-32)/1.8
-
-
+```R
+F_to_D=function(F){
+C=(F-32)/1.8
+paste("F=",F, "is C=",C)
+}
+F_to_D(F=32)
+```
 
 2. Set working directory in your local folder.
 Import `recid.csv` file and provide the appropriate summary statistics (depending on the data types) of each column. 
 Create a new column, termed `married2`, which assigns 1 to "Yes",  0 to "No".
 Write the updated csv file with `married2` column,  `recid_new.csv`,  in your working directory. 
+
 
 3. Create  pdf reports of #1-#2  using RMarkdown/knitr. 
 Give the title of report as "Last_name.First_name.Inclass1.pdf."
