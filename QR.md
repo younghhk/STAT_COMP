@@ -23,22 +23,17 @@ with the bootstrap method preferred as more practical (Hao and Naiman, 2007).
 * We model B2M as a function of age, gender, race, hemoglobin (HGB, g/dL),  and albumin (ALB, g/L).
 The summary statistics of MM is shown below.
 
+ Variable      
+ ---------     -------------
+B2M       
+Age     
+Male          
+Female    
+White    |
+Others      
+ALB
+HGB        
 
-```{r table2, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
-tabl <- "  # simple table creation here
-| Variable       |          | 
-|---------------|:-------------:|
-| B2M     | 57.21 (9.48)  |
-|Age     | centered      |  
-| Male |      |   
-|Female |    |
-|White|      |
-|Others|      |
-|ALB|
-|HGB|        |
-"
-cat(tabl) # output the table in a format good for HTML/PDF/docx conversion
-```
 
 
 
