@@ -23,16 +23,16 @@ with the bootstrap method preferred as more practical (Hao and Naiman, 2007).
 * We model B2M as a function of age, gender, race, hemoglobin (HGB, g/dL),  and albumin (ALB, g/L).
 The summary statistics of MM is shown below.
 
- Variable      mean or %
+| Variable      mean or %
  ---------     -------------
-B2M       
-Age     
-Male          
-Female    
-White    
-Others      
-ALB
-HGB        
+|B2M       |
+|Age       |
+|Male     |    
+|Female   |
+|White    |
+|Others    |  
+|ALB      | 
+|HGB      |  
 ---------     ------------- 
 
 
