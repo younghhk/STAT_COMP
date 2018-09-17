@@ -2,6 +2,7 @@
 
 [Note](https://app.box.com/s/jixzb52zc54ibkrthwd8bk4ocirvpgca)
 
+[Quantile regression in R](http://ftp.auckland.ac.nz/software/CRAN/doc/vignettes/quantreg/rq.pdf)
 
 ## Data Preparation and Implementation
 
