@@ -1,6 +1,6 @@
 # Quantile regression models
 
-[Note]
+[Note] (https://app.box.com/s/jixzb52zc54ibkrthwd8bk4ocirvpgca)
 
 
 ## Data Preparation and Implementation
