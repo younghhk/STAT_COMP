@@ -70,7 +70,7 @@ who were classified as black or white.
 
 5) Regress baby birth weight on mother's age using QR at $\tau$={.1,.5,.7,.9}
 
-6) Draw the plot. uperimpose { .1, .5, .7, .90, .9} quantile regression lines
+6) Draw the plot. Superimpose { .1, .5, .7, .90, .9} quantile regression lines
  in gray, the median fit in solid blue, and the least squares estimate
  of the conditional mean function as the dashed (red) line)
  
