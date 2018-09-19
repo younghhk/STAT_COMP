@@ -61,6 +61,8 @@ who were classified as black or white.
 
 * Response: Birth weight of baby (in kilograms)
 
+* Covariate: MomAge
+
 * Lower quantiles of infant birth weight are of particular interest.
 
 
