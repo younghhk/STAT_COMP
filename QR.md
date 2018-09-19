@@ -55,9 +55,13 @@ Fill the table
 
 ## Inclass Assignment 3: 
 
-`Birthwgt' is the 1997 birth weight data from National Center for Health Statistics. 
+* `Birthwgt' is the 1997 birth weight data from National Center for Health Statistics. 
 The data record live, singleton births to mothers between the ages of 18 and 45 in the United States 
 who were classified as black or white. 
+
+* Response: Birth weight of baby (in kilograms)
+
+* Lower quantiles of infant birth weight are of particular interest.
 
 
 1) Set the local directory
