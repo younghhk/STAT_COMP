@@ -53,41 +53,28 @@ Fill the table
 |.95 |  |
 
 
-## Application: 
+## Inclass Assignment 3: 
 
-```{r}
-setwd(" ")
-Dat <- read.csv("mm.csv")
-colnames(Dat)
+`Birthwgt'is the 1997 birth weight data from National Center for Health Statistics. 
+The data record live, singleton births to mothers between the ages of 18 and 45 in the United States 
+who were classified as black or white. 
 
-##define variables
-age<-E1[,which(colnames(Dat)=="AGE")];
-sex<-E1[,which(colnames(Dat)=="SEX")];
-race<-E1[,which(colnames(Dat)=="RACE")];
-alb<-E1[,which(colnames(Dat)=="ALB")];
-hgb<-E1[,which(colnames(Dat)=="HGB")];
-b2m<-E1[,which(colnames(Dat)=="B2M")]
 
-mm=data.frame(age,sex,race,alb,hgb,b2m)
-new=na.omit(mm)
-dim(new)
-colnames(new)=c("AGE","SEX","RACE","ALB","HGB","B2M")
-attach(new)
+1) set the local directory
 
-## Plot the distribution of y
-ggplot(new, aes(x=B2M))+
-geom_density(color="darkblue", fill="lightblue")
+2) import `Birthwgt' dataset
 
-##Fit OLS
-OLSreg=lm()
-summary(OLSreg)
+3) read the first 6 observations
 
-##Fit QR
-taus <- c(.1,.25,.5,.75,.9,.95)
-f <- rq(B2M~AGE+SEX+RACE+ALB+HGB,tau=taus, data=new)
-sf <- summary(f,se="boot")
-out=round(sapply(sf, function(x) c( x$tau,x$coefficients[-1,1 ])),2)
-```
+4) Regress baby birht weight on mother's age using the OLS
+
+5) Regress baby birth weight on mother's age using QR at $\tau$={.1,.5,.7,.9}
+
+6) Draw the plot. uperimpose { .1, .5, .7, .90, .9} quantile regression lines
+ in gray, the median fit in solid blue, and the least squares estimate
+ of the conditional mean function as the dashed (red) line)
+ 
+7) Provide the table of coefficients estimates and CI
 
 [Back](https://github.com/gdlc/STAT_COMP/)
 
