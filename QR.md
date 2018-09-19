@@ -9,7 +9,7 @@
 * Quantile regression can be implemented in various statistical software packages including R, using quantreg.
 
 ```{r}
-#install.packages("quantreg")
+##install.packages("quantreg")
 library(quantreg)
 data(engel) 
 head(engel)
@@ -17,22 +17,21 @@ attach(engel)
 fit1 <- rq(foodexp ~ income, tau = 0.5, data = engel)
 fit1
 
-# To obtain a
-#more detailed evaluation of the fitted model
+## To obtain a more detailed evaluation of the fitted model
 summary(fit1)
-# a more conventional looking table of coefficients, standard errors,
-# t-statistics, and p-values using the summary function:
+## a more conventional looking table of coefficients, standard errors,
+## t-statistics, and p-values using the summary function:
 summary(fit1, se = "nid")
 
-#residual
+##residual
 r1 <- resid(fit1)
-#coefficient
+##coefficient
 c1 <- coef(fit1)
 
-# plot OLS and QR
-# Superimpose {.05, .1, .25, .75, .90, .95} quantile regression lines
-# in gray, the median fit in solid blue, and the least squares estimate
-# of the conditional mean function as the dashed (red) line
+## plot OLS and QR
+## Superimpose {.05, .1, .25, .75, .90, .95} quantile regression lines
+## in gray, the median fit in solid blue, and the least squares estimate
+## of the conditional mean function as the dashed (red) line
  plot(income, foodexp, cex = 0.25, type = "n", xlab = "Household Income", ylab = "Food Expenditure")
  points(income, foodexp, cex = 0.5, col = "blue")
  abline(rq(foodexp ~ income, tau = 0.5), col = "blue")
@@ -42,11 +41,11 @@ c1 <- coef(fit1)
  abline(rq(foodexp ~ income, tau = taus[i]), col = "gray")
  }
 ```
-# Fill the table
+Fill the table
 --------   -------------------------------    -------------------------
-quantiles         intercept                              income
+quantiles |       intercept                 |             income          |
 -------    -------------------------------   ---------------------------
-.05         124.880 ( 98.302,130.517)          0.343( 0.343, 0.390)
+.05       |   124.880 ( 98.302,130.517)      |     0.343( 0.343, 0.390)   |
 .25
 .50
 .75
