@@ -53,7 +53,7 @@ Fill the table
 |.95 |  |
 
 
-## Inclass Assignment 3: 
+## Inclass Assignment 3 (For full credits, you must submit both RMD and PDF (or word): 
 
 * [bwt](https://app.box.com/s/2792nvtoky3o6qtd91g8hwry91ft95yf) is the 1997 birth weight data from National Center for Health Statistics. 
 The data record live, singleton births to mothers between the ages of 18 and 45 in the United States 
