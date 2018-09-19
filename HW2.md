@@ -6,10 +6,10 @@ All electronic submissions should follow the following naming convention: last n
 
 
 
-**Problem 1 (Linear models).** Write an R code to construct the 95% CI for beta manually. Using the dataset from Inlcass 2, give the CI for beta.
+**Problem 1 (Linear regression models).** Write an R code to construct the 95% CI for beta manually. Using the dataset from Inlcass 2, give the CI for beta.
 
 
 
-**Problem 2.** TBA
+**Problem 2. (Quantile regression models)** Using 'bwt' dataset from Inclass 3, fit quantile regression model to explore the relationship between baby weight and covariates including     Black Married Boy Visit MomEdLevel MomSmoke CigsPerDay MomAge MomAge*MomAge  MomWtGain MomWtGain*MomWtGain at quantile levels from 0.05 to 0.95 by 0.05. Provide the coefficient tables with confidence interval and interpret the results. 
 
 **Problem 3.** TBA
