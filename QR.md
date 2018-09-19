@@ -64,7 +64,7 @@ who were classified as black or white.
 * Covariate: Black(1=black, 0=white), Married (1=married, 0=non-married), Boy (1=boy, 0=girl), 
 Visit (0=no visit, 1=second trimester', 2= last trimester, 3=first trimester), 
 MomEdLevel (0=high school, 1=some college, 2=college, 3=less than high school), 
-MomSmoke (1=smoker, 0=non-smoker), CigsPerDay, MomAge, MomAge^2,  MomWtGain, MomWtGain^2
+MomSmoke (1=smoker, 0=non-smoker), CigsPerDay (conti.), MomAge (centered conti.),  MomWtGain (centered conti.)
 
 * Lower quantiles of infant birth weight are of particular interest.
 
