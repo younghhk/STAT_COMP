@@ -76,5 +76,7 @@ who were classified as black or white.
  
 7) Provide the table of coefficients estimates and CI
 
+8) Interpret the results
+
 [Back](https://github.com/gdlc/STAT_COMP/)
 
