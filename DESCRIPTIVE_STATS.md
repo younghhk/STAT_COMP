@@ -87,7 +87,7 @@ read.csv("foo.csv")
 
 
 
-### In-class Assignment
+### In-class Assignment 1
 
 1. Define a function `F_to_D` that convers temperatures from Fahrenheit to Celsius.
 Then print 32F (freezing point of water) in Celsius.
@@ -101,7 +101,7 @@ F_to_D(F=32)
 ```
 
 2. Set working directory in your local folder.
-Import `recid.csv` file and provide the appropriate summary statistics (depending on the data types) of each column. 
+Import [recid.csv](https://app.box.com/s/5glnpw5iia8fwgzquevym91a3rsfye9e) data and provide the appropriate summary statistics (depending on the data types) of each column. 
 Create a new column, termed `married2`, which assigns 1 to "Yes",  0 to "No".
 Write the updated csv file with `married2` column,  `recid_new.csv`,  in your working directory. 
 
