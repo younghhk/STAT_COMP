@@ -77,7 +77,7 @@ MomSmoke (1=smoker, 0=non-smoker), CigsPerDay (conti.), MomAge (centered conti.)
 
 4) Regress Weight on MomAge using the OLS
 
-5) Regress Weight on MomAge using QR at $\tau$={.1,.5,.7,.9}
+5) Regress Weight on MomAge using QR at tau={.1,.5,.7,.9}
 
 6) Draw the plot. Superimpose { .1, .5, .7, .90, .9} quantile regression lines
  in gray, the median fit in solid blue, and the least squares estimate
