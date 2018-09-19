@@ -6,22 +6,54 @@
 
 ## Data Preparation and Implementation
 
-* Quantile regression can be implemented in various statistical software packages including R, using quantreg, 
-SAS, using Proc Quantreg, and STATA, using Qreg.
+* Quantile regression can be implemented in various statistical software packages including R, using quantreg.
+
+```{r}
+#install.packages("quantreg")
+library(quantreg)
+data(engel) 
+head(engel)
+attach(engel)
+fit1 <- rq(foodexp ~ income, tau = 0.5, data = engel)
+fit1
+
+# To obtain a
+#more detailed evaluation of the fitted model
+summary(fit1)
+# a more conventional looking table of coefficients, standard errors,
+# t-statistics, and p-values using the summary function:
+summary(fit1, se = "nid")
+
+#residual
+r1 <- resid(fit1)
+#coefficient
+c1 <- coef(fit1)
+
+# plot OLS and QR
+# Superimpose {.05, .1, .25, .75, .90, .95} quantile regression lines
+# in gray, the median fit in solid blue, and the least squares estimate
+# of the conditional mean function as the dashed (red) line
+ plot(income, foodexp, cex = 0.25, type = "n", xlab = "Household Income", ylab = "Food Expenditure")
+ points(income, foodexp, cex = 0.5, col = "blue")
+ abline(rq(foodexp ~ income, tau = 0.5), col = "blue")
+ abline(lm(foodexp ~ income), lty = 2, col = "red")
+ taus <- c(0.05, 0.1, 0.25, 0.75, 0.9, 0.95)
+ for (i in 1:length(taus)) {
+ abline(rq(foodexp ~ income, tau = taus[i]), col = "gray")
+ }
+```
+# Fill the table
+--------   -------------------------------    -------------------------
+quantiles         intercept                              income
+-------    -------------------------------   ---------------------------
+.05         124.880 ( 98.302,130.517)          0.343( 0.343, 0.390)
+.25
+.50
+.75
+.95
 
 
-* Standard errors and confidence limits for the quantile regression coefficient estimates can be obtained with
-asymptotic and bootstrapping methods.
-
-* Both methods provide robust results (Koenecker and Hallock 2001),
-with the bootstrap method preferred as more practical (Hao and Naiman, 2007). 
-
-
-## Application: Multiple Myeloma (MM) dataset
-
-* Elevated beta-2 microglobulin (B2M, mg/L) in the blood is correlated with a larger amount of tumor (tumor mass) and reduced kidney function in multiple myeloma.
-
-* We model B2M as a function of age, gender, race, hemoglobin (HGB, g/dL),  and albumin (ALB, g/L).
+## Application: 
 
 ```{r}
 setwd(" ")
