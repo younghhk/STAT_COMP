@@ -66,13 +66,13 @@ who were classified as black or white.
 
 1) Set the local directory
 
-2) Import `Birthwgt' dataset
+2) Import `bwt' dataset
 
 3) Read the first 6 observations
 
-4) Regress baby birht weight on mother's age using the OLS
+4) Regress Weight on MomAge using the OLS
 
-5) Regress baby birth weight on mother's age using QR at $\tau$={.1,.5,.7,.9}
+5) Regress Weight on MomAge using QR at $\tau$={.1,.5,.7,.9}
 
 6) Draw the plot. Superimpose { .1, .5, .7, .90, .9} quantile regression lines
  in gray, the median fit in solid blue, and the least squares estimate
