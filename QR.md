@@ -87,5 +87,48 @@ MomSmoke (1=smoker, 0=non-smoker), CigsPerDay (conti.), MomAge (centered conti.)
 
 8) Interpret the results
 
+```{r}
+#setwd("YOUR directory")
+bwt <- read.csv("bwt.csv", header=TRUE)
+attach(bwt)
+##Fit OLS
+bwt_OLS <- lm(Weight ~ MomAge, data = bwt)
+#Load library quantreg to use quantile regression
+library(quantreg)
+##Fit QR
+fit1 <- rq(Weight ~ MomAge, tau = 0.1, data = bwt)
+fit2 <- rq(Weight ~ MomAge, tau = 0.5, data = bwt)
+fit3 <- rq(Weight ~ MomAge, tau = 0.7, data = bwt)
+fit4 <- rq(Weight ~ MomAge, tau = 0.9, data = bwt)
+##Plot
+plot(MomAge, Weight, cex = 0.25, type = "n", xlab = "Mom Age", ylab = "Weight")
+points(MomAge, Weight, cex = 0.5, col = "blue")
+abline(rq(Weight ~ MomAge, tau = 0.5), col = "blue")
+abline(lm(Weight ~ MomAge), lty = 2, col = "red")
+taus <- c(0.1, 0.5, 0.7, 0.9)
+for (i in 1:length(taus)) {
+abline(rq(Weight ~ MomAge, tau = taus[i],data=bwt), col = "gray")
+}
+##Create table
+fit <- rbind(summary(fit1)$coefficients[,1],summary(fit2)$coefficients[,1],summary(fit3)$coefficients[,1],summary(fit4)$coefficients[,1])
+rownames(fit)<-c("tau=.1","tau=.5","tau=.7","tau=.9")
+colnames(fit)<-c("intercept","Slops")
+vcov.rq <- function(x, se = "iid") {
+vc <- summary.rq(x, se=se, cov=TRUE)$cov
+dimnames(vc) <- list(names(coef(x)), names(coef(x)))
+vc
+}
+CI<-rbind(c(confint(fit1)[1,],confint(fit1)[2,]), c(confint(fit2)[1,],confint(fit2)[2,]),c(confint(fit3)[1,],confint(fit3)[2,]),c(confint(fit4)[1,],confint(fit4)[2,]))
+tab<- cbind(cbind(fit[,1],CI[,1:2]),cbind(fit[,2],CI[,3:4]))
+colnames(tab)<-c("intercept","2.5%","97.5%", "Slops","2.5%","97.5%")
+tab
+```
+
+The specification and interpretation of quantile regression models is very much like that of ordinary regression. 
+However, unlike ordinary regression, we now have a family of cures to interpret, and we can focus attention on particualr segments of the conditional distribution, thus obtaining a more complete view of the relationship between the variables. 
+
+At the tau=0.1 quantile,  the beta(tau) is 6, but at the tau=0.9, beta(tau) is 12. 
+That is, the impact of mom's aging doubles at the top 10% level, compared to the bottom 10% of birth weights.
+
 [Back](https://github.com/gdlc/STAT_COMP/)
 
