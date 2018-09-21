@@ -120,7 +120,7 @@ vc
 }
 CI<-rbind(c(confint(fit1)[1,],confint(fit1)[2,]), c(confint(fit2)[1,],confint(fit2)[2,]),c(confint(fit3)[1,],confint(fit3)[2,]),c(confint(fit4)[1,],confint(fit4)[2,]))
 tab<- cbind(cbind(fit[,1],CI[,1:2]),cbind(fit[,2],CI[,3:4]))
-colnames(tab)<-c("intercept","2.5%","97.5%", "Slops","2.5%","97.5%")
+colnames(tab)<-c("intercept","2.5%","97.5%", "Slope","2.5%","97.5%")
 tab
 ```
 
