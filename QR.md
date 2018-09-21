@@ -125,7 +125,7 @@ tab
 ```
 
 The specification and interpretation of quantile regression models is very much like that of ordinary regression. 
-However, unlike ordinary regression, we now have a family of cures to interpret, and we can focus attention on particualr segments of the conditional distribution, thus obtaining a more complete view of the relationship between the variables. 
+However, unlike ordinary regression, we now have a family of cures to interpret, and we can focus attention on particular segments of the conditional distribution, thus obtaining a more complete view of the relationship between the variables. 
 
 At the tau=0.1 quantile,  the beta(tau) is 6, but at the tau=0.9, beta(tau) is 12. 
 That is, the impact of mom's aging doubles at the top 10% level, compared to the bottom 10% of birth weights.
