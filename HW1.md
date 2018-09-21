@@ -25,3 +25,5 @@ The `recid.csv` data set contains information about 432 inmates who were release
         4=10th to 11th grade;
         5=12th grade;
          6=some college;
+
+[Solution](https://app.box.com/s/881ogrwxtpcsq2i9zm9z3edo6own1xdp)
