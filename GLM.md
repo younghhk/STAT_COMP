@@ -1,8 +1,12 @@
 # Generalized linear models (GLM)
 
 Dataset
+
 [donner](https://app.box.com/s/4511synp42q9nzntzpspojclwr20ivm1)
+
 [crab] (https://app.box.com/s/456boimp1otj0gp096ndfxxlwh7601u3)
+
+[Note](https://app.box.com/s/850l4ek8b5g6s0nhzkrqe8bh1w93kbcr)
 
 ### Logistic Regression
 
