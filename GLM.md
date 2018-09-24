@@ -1,5 +1,9 @@
 # Generalized linear models (GLM)
 
+Dataset
+[donner](https://app.box.com/s/4511synp42q9nzntzpspojclwr20ivm1)
+[crab] (https://app.box.com/s/456boimp1otj0gp096ndfxxlwh7601u3)
+
 ### Logistic Regression
 
  In a logistic model, the outcome is commonly on one of three scales:
