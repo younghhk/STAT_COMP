@@ -9,7 +9,35 @@ Dataset
 [Note](https://app.box.com/s/5dg969wafkwr4j0k1179xzruocgs98q9)
 
 
-## Inclass assignment 4.
+## Inclass assignment #4.
+
+Part 1. Estimation using `optim` function
+
+1. Generate the count dataset
+```{r}
+obs = c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 17, 42, 50)
+frq = c(1280, 1711, 914, 468, 306, 192, 96, 56, 35, 17, 15, 6, 3, 2, 1, 1)
+x <- rep(obs, frq)
+plot(table(x), main="Count data")
+```
+
+2. Write the sum of log-likelihood function of Poisson distribution
+```{r}
+# note: f(x)=lambda^x/factorial(x) * exp(-lambda)
+
+negLogLik <- function(x, lambda){
+logLik=
+return(-logLik)  #By default optim searches for parameters, which minimize the function fn.
+```
+
+
+3. Estimate lambda using optim function
+```{r}
+optim(fn=negLogLik, x = x,par = 2)
+mean(x)
+```
+
+Part 2.
 
 1. Let  *yi* be a 0/1 bernoulli random variable and **xi** a vector of covariates for the ith individual, then we model log(p/(1-p))=**xi'b**, where here **b** is a vector of regression coefficient.
 Show that p=exp(**xi'b**)/(1+exp(**xi'b**)).
@@ -45,7 +73,7 @@ Discuss options for family and link.
 
 4. Obtain ML estimates of beta using your function via grid-search and using optimize.
 
- * Develop an R-function to evaluate the log-likelihood of a logistic regression given X,y, and b.
+ * Develop an R-function to evaluate the log-likelihood of a logistic regression given X, y, and b.
 
 ```r
   negLogLik=function(y,X,b){
