@@ -11,8 +11,8 @@ Dataset
 
 ## Inclass assignment 4.
 
-1. Let  *yi* be a 0/1 bernoulli random variable and **xi** a vector of covariates for the ith individual, then we model log(pi/(1-pi))=**xi'b**, where here **b** is a vector of regression coefficient.
-Show that pi=exp(**xi'b**)/(1+exp(**xi'b**)).
+1. Let  *yi* be a 0/1 bernoulli random variable and **xi** a vector of covariates for the ith individual, then we model log(p/(1-p))=**xi'b**, where here **b** is a vector of regression coefficient.
+Show that p=exp(**xi'b**)/(1+exp(**xi'b**)).
 
 
 2. Construct small test data set (X,y): 
@@ -28,8 +28,8 @@ Show that pi=exp(**xi'b**)/(1+exp(**xi'b**)).
  X=cbind(1,runif(n))
  b=c(.2,.25)
  eta=X%*%b
- pi=exp(eta)/(1+exp(eta))
- y=rbinom(n=n,size=1,prob=pi)
+ p=exp(eta)/(1+exp(eta))
+ y=rbinom(n=n,size=1,prob=p)
 ```
 
 3. Estimate using `glm` function.
@@ -50,15 +50,15 @@ Discuss options for family and link.
 ```r
   negLogLik=function(y,X,b){
   	eta=X%*%b
-	pi=exp(eta)/(1+exp(eta))
-	logLik=sum(ifelse(y==1,log(pi),log(1-pi)))
+	p=exp(eta)/(1+exp(eta))
+	logLik=sum(ifelse(y==1,log(p),log(1-p)))
         return(-logLik)
   }
 ```
 
 * Estimation using optim()
 
-Finding reasonalbe intial values is important here. One possible strategy is assume all regression coefficient equal to zero and then gues the intercept based on the observed proportion of 1s. Note that log(p/(1-p))=x'b; therefore, if all regression coefficient are equal to zero, we have  log(p/(1-p))=b0, where b0 is the intercept. This suggest that we can use as initial value for the intercept b0=log(mean(y)/(1-mean(y)). To ease convergence we can also center covariates (all columns of X except the intercept). This make them orthogonal to the intercept and usually helps convergence.
+Finding reasonable intial values is important here. One possible strategy is assume all regression coefficient equal to zero and then guess the intercept based on the observed proportion of 1s. Note that log(p/(1-p))=x'b; therefore, if all regression coefficient are equal to zero, we have  log(p/(1-p))=b0, where b0 is the intercept. This suggest that we can use as initial value for the intercept b0=log(mean(y)/(1-mean(y)). To ease convergence we can also center covariates (all columns of X except the intercept). This make them orthogonal to the intercept and usually helps convergence.
 
 ```r
   pHat=mean(y)
