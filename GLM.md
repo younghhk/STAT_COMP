@@ -17,14 +17,14 @@ Show that p=exp(**xi'b**)/(1+exp(**xi'b**)).
 
 2. Construct small test data set (X,y): 
 
-*  n=100
+* n=1000
 * X=(X1,X2), where X1 is  a vector, all filled with ones and X2~runif(n)
 * b=(.2,.25)
 * y~Bernoulli(prob=pi)
 
 ```r
  set.seed(195021)
- n=100
+ n=1000
  X=cbind(1,runif(n))
  b=c(.2,.25)
  eta=X%*%b
