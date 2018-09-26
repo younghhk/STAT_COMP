@@ -11,7 +11,7 @@ Dataset
 
 ## Inclass assignment 4.
 
-1. Let  *yi* be a 0/1 bernoulli random variable and **xi** a vector of covariates for the ith individual, then we model log(pi/(1-pi))=**xi'b**, where here **b** is a vector of regression coefficientseta=Xb. 
+1. Let  *yi* be a 0/1 bernoulli random variable and **xi** a vector of covariates for the ith individual, then we model log(pi/(1-pi))=**xi'b**, where here **b** is a vector of regression coefficient.
 Show that pi=exp(**xi'b**)/(1+exp(**xi'b**)).
 
 
