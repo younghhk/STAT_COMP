@@ -15,11 +15,12 @@ Dataset
 Show that pi=exp(**xi'b**)/(1+exp(**xi'b**)).
 
 
-2. Construct small test data set (X,y) which follows
- n=100
- X=(X1,X2), where X1 a vector, all filled with ones and X2~runif(n)
- b=(.2,.25)
- y~bernoulli(prob=pi)
+2. Construct small test data set (X,y): 
+
+*  n=100
+* X=(X1,X2), where X1 a vector, all filled with ones and X2~runif(n)
+* b=(.2,.25)
+* y~bernoulli(prob=pi)
 
 ```r
  set.seed(195021)
