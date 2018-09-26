@@ -18,9 +18,9 @@ Show that pi=exp(**xi'b**)/(1+exp(**xi'b**)).
 2. Construct small test data set (X,y): 
 
 *  n=100
-* X=(X1,X2), where X1 a vector, all filled with ones and X2~runif(n)
+* X=(X1,X2), where X1 is  a vector, all filled with ones and X2~runif(n)
 * b=(.2,.25)
-* y~bernoulli(prob=pi)
+* y~Bernoulli(prob=pi)
 
 ```r
  set.seed(195021)
@@ -28,8 +28,8 @@ Show that pi=exp(**xi'b**)/(1+exp(**xi'b**)).
  X=cbind(1,runif(n))
  b=c(.2,.25)
  eta=X%*%b
- p=exp(eta)/(1+exp(eta))
- y=rbinom(n=n,size=1,prob=p)
+ pi=exp(eta)/(1+exp(eta))
+ y=rbinom(n=n,size=1,prob=pi)
 ```
 
 3. Estimate using `glm` function.
@@ -39,8 +39,8 @@ The `glm()` function can be used to fit generalized linear (fixed effects) model
 Discuss options for family and link.
 
 ```r
-  fm=glm(y~X-1,family=binomial(link=logit))
-  summary(fm)
+  fit1=glm(y~X-1,family=binomial(link=logit))
+  summary(fit1)
 ```
 
 4. Obtain ML estimates of beta using your function via grid-search and using optimize.
@@ -55,6 +55,7 @@ Discuss options for family and link.
         return(-logLik)
   }
 ```
+
 * Estimation using optim()
 
 Finding reasonalbe intial values is important here. One possible strategy is assume all regression coefficient equal to zero and then gues the intercept based on the observed proportion of 1s. Note that log(p/(1-p))=x'b; therefore, if all regression coefficient are equal to zero, we have  log(p/(1-p))=b0, where b0 is the intercept. This suggest that we can use as initial value for the intercept b0=log(mean(y)/(1-mean(y)). To ease convergence we can also center covariates (all columns of X except the intercept). This make them orthogonal to the intercept and usually helps convergence.
@@ -64,8 +65,8 @@ Finding reasonalbe intial values is important here. One possible strategy is ass
   b0Hat=log(mean(y)/(1-mean(y)))
   b.ini=c(b0Hat,0)
   X[,2]=X[,2]-mean(X[,2])
-  fm=optim(fn=negLogLik,X=X,y=y,par=b.ini)
-  glm(y~X-1,family=binomial(link=logit))$coef
+  fit2=optim(fn=negLogLik,X=X,y=y,par=b.ini)
+  fit2
 ```
 
 # Reference
