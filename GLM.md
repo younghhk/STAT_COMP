@@ -24,11 +24,10 @@ plot(table(x), main="Count data")
 2. Evaluate the negative log-likelihood  of Poisson distribution
 ```{r}
 # note: f(x)=lambda^x/factorial(x) * exp(-lambda)
-
 negLogLik <- function(x, lambda){
-logLik=
-
-return(-logLik)  #By default optim searches for parameters, which minimize the function fn.
+  logLik=sum(x*log(lambda)-lambda-log(factorial(x)))
+    
+    return(-logLik)  #By default optim searches for parameters, which minimize the function fn.
 }
 ```
 
