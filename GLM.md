@@ -47,14 +47,14 @@ Show that p=exp(**xi'b**)/(1+exp(**xi'b**)).
 
 2. Construct small test data set (X,y): 
 
-* n=1000
+* n=1000000
 * X=(X1,X2), where X1 is  a vector, all filled with ones and X2~runif(n)
 * b=(.2,.25)
 * y~Bernoulli(prob=pi)
 
 ```r
  set.seed(195021)
- n=1000
+ n=1000000
  X=cbind(1,runif(n))
  b=c(.2,.25)
  eta=X%*%b
@@ -88,13 +88,12 @@ Discuss options for family and link.
 
 * Estimation using optim()
 
-Finding reasonable intial values is important here. One possible strategy is assume all regression coefficient equal to zero and then guess the intercept based on the observed proportion of 1s. Note that log(p/(1-p))=x'b; therefore, if all regression coefficient are equal to zero, we have  log(p/(1-p))=b0, where b0 is the intercept. This suggest that we can use as initial value for the intercept b0=log(mean(y)/(1-mean(y)). To ease convergence we can also center covariates (all columns of X except the intercept). This make them orthogonal to the intercept and usually helps convergence.
+Finding reasonable intial values is important here. One possible strategy is assume all regression coefficient equal to zero and then guess the intercept based on the observed proportion of 1s. Note that log(p/(1-p))=x'b; therefore, if all regression coefficient are equal to zero, we have  log(p/(1-p))=b0, where b0 is the intercept. This suggest that we can use as initial value for the intercept b0=log(mean(y)/(1-mean(y)).
 
 ```r
   pHat=mean(y)
   b0Hat=log(mean(y)/(1-mean(y)))
   b.ini=c(b0Hat,0)
-  X[,2]=X[,2]-mean(X[,2])
   fit2=optim(fn=negLogLik,X=X,y=y,par=b.ini)
   fit2
 ```
