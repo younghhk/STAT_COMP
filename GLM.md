@@ -27,8 +27,9 @@ plot(table(x), main="Count data")
 
 negLogLik <- function(x, lambda){
 logLik=
-}
+
 return(-logLik)  #By default optim searches for parameters, which minimize the function fn.
+}
 ```
 
 
