@@ -24,7 +24,7 @@ Show that p=exp(**xi'b**)/(1+exp(**xi'b**)).
 
 ```r
  set.seed(195021)
- n=1000
+ n=100
  X=cbind(1,runif(n))
  b=c(.2,.25)
  eta=X%*%b
