@@ -21,7 +21,7 @@ x <- rep(obs, frq)
 plot(table(x), main="Count data")
 ```
 
-2. Write the sum of log-likelihood function of Poisson distribution
+2. Evaluate the negative log-likelihood  of Poisson distribution
 ```{r}
 # note: f(x)=lambda^x/factorial(x) * exp(-lambda)
 
