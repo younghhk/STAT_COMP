@@ -11,6 +11,10 @@ This GitHub serves as a repository for the statistical computing courses STT 802
 
 **Office hours** Tu 11:30 AM-12:30 PM (Wells Hall C435) or by appointment. 
 
+**Exam 1** October 15 (Monday): Module 1 (LM, QR, GLM, Survival models) and Module 2 (variable selection)
+
+October 17 (Wednesday): Variable screening & we will discuss HW3
+
 ## Modules
 
 
