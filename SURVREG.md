@@ -37,7 +37,7 @@ d=ovarian$fustat
 
 ## Inclass Assignment #5
 
-1. Write an `R` function generates a data set (X,Z) with the size of `N`.
+1. Write an `R` function that generates a data set (X,Z) with the size of `N`.
 
 Covariates are Z=(1,z) where `z` is from uniform (0,1).
 The latent time `X` follows a Cox model with the the baseline hazard that has a Weibull form with `lambda` (scale prameter) and `alpha` (shape parameter).
