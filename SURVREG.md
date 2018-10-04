@@ -2,6 +2,7 @@
 [Note](https://app.box.com/s/kykg6pmjb757lhiuq3knawcakmsz4umc)
 
 [Inverse sampling](https://app.box.com/s/rv8u5fa7btrluqzfo3k10wn10lk2kc45)
+
 [STT461 Note on Inverse sampling](https://app.box.com/s/0zqvlwnz1i4kpx4j5wkpb9hjaiq0btn4)
 
 ## Inclass Assignment #5 (For full credits, you must submit both RMD and PDF (or Word):
