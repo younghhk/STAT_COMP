@@ -8,7 +8,15 @@
 ## Inclass Assignment #5 (For full credits, you must submit both RMD and PDF (or Word):
 
 1. Write an `R` function that generates a data set with single binary covariate z (e.g. a treatment indicator).
-The latent time `X` follows a Cox model with the the baseline hazard that has a Weibull form with `lambda` (scale prameter) and `alpha` (shape parameter).
+To generate X from the Cox model, we can use the inverse sampling method.
+If U is uniform on (0,1) and S(x|z) is the conditional survival function derived from the Cox model.
+
+I.e., S(x|z)=exp(-H_0(x)exp(z'beta))
+
+Then, X=S^{-1}(U|z)=H_0^{-1}(-log U/exp(z'beta)) has survival function S(x|z). 
+
+Assume that the baseline hazard  has a Weibull form with lambda (scale prameter) and alpha (shape parameter).
+
 Censoring times are randomly drawn form an exponential distribution with the rate parameter `rateC`.
 
 2. Test
