@@ -9,7 +9,7 @@ Dataset
 [Note](https://app.box.com/s/5dg969wafkwr4j0k1179xzruocgs98q9)
 
 
-## Inclass assignment #4.
+## Inclass assignment #4 (For full credits, you must submit both RMD and PDF (or Word).
 
 Part 1. Estimation using `optim` function
 
