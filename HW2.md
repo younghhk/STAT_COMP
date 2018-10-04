@@ -33,4 +33,28 @@ Let  *yi* be a  random variable and **xi** a vector of covariates for the ith in
 
 * Estimation using `optim()`
 
-**Problem 4. (Survival models) (TBA)**
+**Problem 4. (Survival models)**
+Write an R function that generates a (latent) survival time X.
+To generate X from the Cox model, we can use the inverse sampling method.
+If U is uniform on (0,1) and S(x|z) is the conditional survival function derived from the Cox model.
+
+I.e.,
+S(x|z)=exp(-H_0(x)exp(z'beta))
+
+Then, X=S^{-1}(U|z)=H_0^{-1}(-log U/exp(z'beta)) has survival function S(x|z). 
+
+
+The Gompertz distribution represents another extension of the exponential distribution.
+Like the Weibull, the Gompertz distribution is characterized by two parameters. 
+Assume that the baseline hazard function $h_0(x)$ follows the Gompertz distribution,
+I.e., h_0(x)=lambda(exp(alpha*x))
+
+(1) Derive the baseline cumulative hazard function, H_0(x).
+
+(2) Derive the inverse of the baseline cumulative hazard function, H_0^{-1}(x).
+
+  
+(3) Using the inverse sampling method and (2), express X w.r.t. U, where U~Unif(0,1).
+
+
+(4) Write an `R` code to generate 100 X's assuming z is a single bivaraite covariate (ex. treatments), beta=0.6 and lambda=1 and alpha=1.
