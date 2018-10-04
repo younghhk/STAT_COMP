@@ -46,8 +46,8 @@ Then, X=S^{-1}(U|z)=H_0^{-1}(-log U/exp(z'beta)) has survival function S(x|z).
 
 The Gompertz distribution represents another extension of the exponential distribution.
 Like the Weibull, the Gompertz distribution is characterized by two parameters. 
-Assume that the baseline hazard function $h_0(x)$ follows the Gompertz distribution,
-I.e., h_0(x)=lambda(exp(alpha*x))
+Assume that the baseline hazard function h_0(x) follows the Gompertz distribution,
+I.e., h_0(x)=lambda*exp(alpha*x)
 
 (1) Derive the baseline cumulative hazard function, H_0(x).
 
