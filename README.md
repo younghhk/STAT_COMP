@@ -56,6 +56,6 @@ October 17 (Wednesday): Variable screening & we will discuss HW3
 ## Homeworks
 1. [HW1](https://github.com/younghhk/STAT_COMP/blob/master/HW1.md)
 2. [HW2](https://github.com/younghhk/STAT_COMP/blob/master/HW2.md)
-3. [HW3](https://github.com/younghhk/STAT_COMP/blob/master/HW3.md)
 
-[Practice Exam 1](https://app.box.com/s/l5fy0sg5quu6ge9gf6xrqwlsq8nvq4ic)
+
+
