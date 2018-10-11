@@ -59,4 +59,4 @@ I.e., h_0(x)=lambda \times exp(alpha \times x)
 
 (4) Write an `R` code to generate 100 X's assuming z is a single bivaraite covariate (ex. treatments), beta=0.6 and lambda=1 and alpha=1.
 
-[HW2 solution](https://app.box.com/s/7tx0r16ej5py6jvanheshgrzue28jmb8)
+[Solution](https://app.box.com/s/7tx0r16ej5py6jvanheshgrzue28jmb8)
