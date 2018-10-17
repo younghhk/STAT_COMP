@@ -2,7 +2,7 @@
 
 [Note](https://app.box.com/s/4u4wntc1t9d4c4gxmhs5q2w7pspkmait)
 
-Forward stagewise modeling practice
+Forward stagewise modeling 
 
 ```{r}
 library(lars) # to use diabetes data
@@ -27,8 +27,10 @@ for(i in 1:rep){
   beta <- rbind(beta,b)
   r <- r - delta*M[,j]
 }
-```
+
 matplot(beta,type="l",lty=1,xlab="step number",ylab="beta",main="stagewise")
+```
+
 
 # Reference
 [Glmnet](https://web.stanford.edu/~hastie/glmnet/glmnet_alpha.html)
