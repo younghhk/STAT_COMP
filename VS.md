@@ -8,7 +8,7 @@ Fan and Lv (2008) introduced the concept of sure screening and proposed a sure s
 In a fairly general asymptotic framework, SIS is shown to have the sure screening property for even exponentially growing dimension.
 
 
-## Inclass Assignment 6 (Submit both RMD and PDF)##
+## Inclass Assignment 6 (Submit both RMD and PDF)
 [Inclass Assignment #6](https://app.box.com/s/fx2fkvvmyitjrpy4mwbj5565xrcacvaa)
 
 
