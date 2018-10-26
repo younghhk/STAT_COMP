@@ -1,19 +1,12 @@
 # STATISTICAL COMPUTING
 
-
-This GitHub serves as a repository for the statistical computing courses STT 802 and EPI-853b.
-
 **Instructors**: Hyokyoung Grace Hong (hhong@stt.msu.edu) & Gustavo de los Campos (gustavoc@msu.edu)
 
 **[Syllabus](https://app.box.com/s/4l7zea2zvqa1kq3137tujqdx0opiif1z)**
 
 **Time & Place** M/W 	3:00 PM - 4:20 PM. E109 Fee Hall.
 
-**Office hours** Tu 11:30 AM-12:30 PM (Wells Hall C435) or by appointment. 
-
-**Exam 1** October 15 (Monday): Module 2 (LM, QR, GLM, Survival models) and Module 3 (variable selection)
-
-October 17 (Wednesday): Variable screening & we will discuss HW3
+**Office hours** Wells Hall C435 By appointment. 
 
 ## Modules
 
