@@ -44,7 +44,7 @@ Reference: [Advanced R](https://adv-r.hadley.nz/index.html)
   1.	[Bootstrap (application: SEs for odds ratios in logistic regression)](https://github.com/gdlc/STAT_COMP/blob/master/BOOTSTRAP.md)
   2.	[Permutation test (p-values for odds ratios in logistic regression)](https://github.com/gdlc/STAT_COMP/blob/master/PERMUTATIONS.md)
   
- **Module 6 (Embedding C/C++ code into R, tentative) **
+ **Module 6 (Embedding C/C++ code into R, tentative)**
 
 ## Homeworks
 1. [HW1](https://github.com/younghhk/STAT_COMP/blob/master/HW1.md)
