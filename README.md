@@ -19,7 +19,7 @@ Dr. de los Campos: TBA
   3. loops, conditional statements, arrays, sibsetting, arrays, etc.
   4. [Data preparation and descriptive analyses](https://github.com/younghhk/STAT_COMP/blob/master/DESCRIPTIVE_STATS.md) 
  
-Reference: [Advanced R] (https://adv-r.hadley.nz/index.html)
+Reference: [Advanced R](https://adv-r.hadley.nz/index.html)
 
 **Module 2 (Statistical Models)**
 
@@ -43,6 +43,8 @@ Reference: [Advanced R] (https://adv-r.hadley.nz/index.html)
 
   1.	[Bootstrap (application: SEs for odds ratios in logistic regression)](https://github.com/gdlc/STAT_COMP/blob/master/BOOTSTRAP.md)
   2.	[Permutation test (p-values for odds ratios in logistic regression)](https://github.com/gdlc/STAT_COMP/blob/master/PERMUTATIONS.md)
+  
+ **Module 6 (Embedding C/C++ code into R, tentative) **
 
 ## Homeworks
 1. [HW1](https://github.com/younghhk/STAT_COMP/blob/master/HW1.md)
