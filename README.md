@@ -4,9 +4,10 @@
 
 **[Syllabus](https://app.box.com/s/4l7zea2zvqa1kq3137tujqdx0opiif1z)**
 
-**Time & Place** M/W 	3:00 PM - 4:20 PM. 175 Brody Hall (check back again later, it could be changed)
+**Time & Place** M/W 	3:00 PM - 4:20 PM. 175 Brody Hall 
 
 **Office hours** Dr. Hong: Wells Hall C435; M, W 1-2P Or By appointment.
+
 Dr. de los Campos: TBA
 
 ## Modules
@@ -21,12 +22,15 @@ Dr. de los Campos: TBA
  
 Reference: [Advanced R](https://adv-r.hadley.nz/index.html)
 
-**Module 2 (Statistical Models)**
+**Module 2 (Statistical Models, 4 weeks)**
 
   1. [Linear regression models (point estimates, SEs, t-test, p-values)](https://github.com/younghhk/STAT_COMP/blob/master/LM.md)
   2. [Generalized linear models (GLM)](https://github.com/younghhk/STAT_COMP/blob/master/GLM.md)
   3. [Survival models](https://github.com/younghhk/STAT_COMP/blob/master/SURVREG.md)
   4. [Variable screening methods](https://github.com/younghhk/STAT_COMP/blob/master/VS.md) 
+
+**Exam 1 (October 14, Tentatively)**
+
 
 **Module 3 (Maximum Likelihood)**
 
@@ -47,8 +51,8 @@ Reference: [Advanced R](https://adv-r.hadley.nz/index.html)
  **Module 6 (Embedding C/C++ code into R, tentative)**
 
 ## Homeworks
-1. [HW1](https://github.com/younghhk/STAT_COMP/blob/master/HW1.md)
-2. [HW2](https://github.com/younghhk/STAT_COMP/blob/master/HW2.md)
+
+
 
 
 
