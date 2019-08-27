@@ -108,4 +108,4 @@ Write the updated csv file with `married2` column,  `recid_new.csv`,  in your wo
 
 3. Create  pdf reports of #1-#2  using RMarkdown/knitr. 
 Give the title of report as "Last_name.First_name.Inclass1.pdf."
-Then upload in the D2L:Assessments:Assignments:In-class Assignments:Inclass1 folder.
+Then upload in the D2L:Assessments:In-class Assignments:Inclass1 folder.
