@@ -100,7 +100,7 @@ paste("F=",F, "is C=",C)
 F_to_D(F=32)
 ```
 
-2.Import [recid.csv](https://app.box.com/s/5glnpw5iia8fwgzquevym91a3rsfye9e) data and create a new column, termed `married2`, which assigns 1 to "Yes",  0 to "No." Provide the appropriate summary statistics (depending on the data types) of each column. 
+2. Import [recid.csv](https://app.box.com/s/5glnpw5iia8fwgzquevym91a3rsfye9e) data and create a new column, termed `married2`, which assigns 1 to "Yes",  0 to "No." Provide the appropriate summary statistics (depending on the data types) of each column. 
 
 
 3. Create  a pdf report  using RMarkdown/knitr. 
