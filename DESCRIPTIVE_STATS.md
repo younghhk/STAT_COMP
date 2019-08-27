@@ -87,7 +87,7 @@ read.csv("foo.csv")
 
 
 
-### In-class Assignment 1
+### In-class Assignment 0
 
 1. Define a function `F_to_D` that convers temperatures from Fahrenheit to Celsius.
 Then print 32F (freezing point of water) in Celsius.
@@ -108,4 +108,4 @@ Write the updated csv file with `married2` column,  `recid_new.csv`,  in your wo
 
 3. Create  pdf reports of #1-#2  using RMarkdown/knitr. 
 Give the title of report as "Last_name.First_name.Inclass1.pdf."
-Then upload in the D2L:Assessments:In-class Assignments:Inclass1 folder.
+Then upload in the D2L:Assessments:In-class Assignments:Inclass0 folder.
