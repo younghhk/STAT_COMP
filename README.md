@@ -17,8 +17,9 @@ Dr. de los Campos: TBA
 
   1. [R Studio/R Markdown](https://github.com/younghhk/STAT_COMP/blob/master/Rmarkdown.md)
   2. [Introduction to R](https://github.com/younghhk/STAT_COMP/blob/master/RIntro.md)
-  3. loops, conditional statements, arrays, sibsetting, arrays, etc.
-  4. [Data preparation and descriptive analyses](https://github.com/younghhk/STAT_COMP/blob/master/DESCRIPTIVE_STATS.md) 
+  3. [Data preparation and descriptive analyses](https://github.com/younghhk/STAT_COMP/blob/master/DESCRIPTIVE_STATS.md) 
+  4. loops, conditional statements, arrays, sibsetting, arrays, etc.
+ 
  
 Reference: [Advanced R](https://adv-r.hadley.nz/index.html)
 
