@@ -105,4 +105,4 @@ F_to_D(F=32)
 
 3. Create  a pdf report  using RMarkdown/knitr. 
 Give the title of the report as "Last_name.First_name.Inclass0.pdf."
-Then upload in the D2L:Assessments:In-class Assignments:Inclass0 folder.
+Then upload in the D2L:Assessments:Inclass0 folder.
