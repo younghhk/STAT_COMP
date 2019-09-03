@@ -87,7 +87,7 @@ read.csv("foo.csv")
 
 
 
-### In-class Assignment 0
+### In-class Assignment 0 (Due: Sep 4th 11:59PM; will not be graded)
 
 1. Define a function `F_to_D` that convers temperatures from Fahrenheit to Celsius.
 Then print 32F (freezing point of water) in Celsius.
