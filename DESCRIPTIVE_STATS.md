@@ -181,9 +181,13 @@ tries
 readmission.df = data.frame( name = c("P0001", "P0002", "P0003", "P0004"),
                          sex = c("f", "f", "m", "m"), 
                         days = c(102,302,31,9)); 
-                        readmission.df
+readmission.df
 ```
 Use a simple ‘ifelse’ statement to add a new column ‘male.30’ to the data frame,  which is a boolean column, indicating `T` if the patient is a male readmitted within  30 days.
+
+```{r}
+ifelse( test, "T","F")
+```
 
 2. Write a `while` loop starting with z = 0.  The loop prints all numbers up to 20 but it skips numbers 5 and 10.
 ```r
@@ -197,6 +201,7 @@ body
 setwd("Change to your folder location)
 recid<-read.csv("recid.csv",header=T)
 recid$married2<-ifelse(...)
+head(recid)
 summary(recid)
 ```
 
