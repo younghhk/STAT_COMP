@@ -22,6 +22,7 @@ save.image("C:/mydir/filename.RData")
 ls()  
 ## change to mydir
 setwd("C:/mydir")   
+setwd("C:\\mydir") #save the data in the local folder, not One Drive
 ```
 
 <div id="read-write-csv" />
@@ -174,7 +175,7 @@ tries
 
 ### In-class Assignment 0 (Due: Sep 4th 11:59PM; will not be graded)
 
-1.  Create the data frame ‘student.df’ with the data provided below:
+1.  Create the data frame ‘readmission.df’ with the data provided below:
 
 ```r
 readmission.df = data.frame( name = c("P0001", "P0002", "P0003", "P0004"),
@@ -185,10 +186,21 @@ readmission.df = data.frame( name = c("P0001", "P0002", "P0003", "P0004"),
 Use a simple ‘ifelse’ statement to add a new column ‘male.30’ to the data frame,  which is a boolean column, indicating `T` if the patient is a male readmitted within  30 days.
 
 2. Write a `while` loop starting with z = 0.  The loop prints all numbers up to 20 but it skips numbers 5 and 10.
-
-3. Import [recid.csv](https://app.box.com/s/5glnpw5iia8fwgzquevym91a3rsfye9e) data and create a new column, termed `married2`, which assigns 1 to "Yes",  0 to "No." Provide the appropriate summary statistics (depending on the data types) of each column. 
+```r
+z<-0
+while(z<20){
+body
+}
+```
+3. Import [recid.csv](https://app.box.com/s/5glnpw5iia8fwgzquevym91a3rsfye9e) data and create a new column, termed `married2`, which assigns  "Yes" to 1,  "No" to 0. Provide the appropriate summary statistics (depending on the data types) of each column. 
+```r
+setwd("Change to your folder location)
+recid<-read.csv("recid.csv",header=T)
+recid$married2<-ifelse(...)
+summary(recid)
+```
 
 
 4. Create  a pdf report  using RMarkdown/knitr. 
 Give the title of the report as "Last_name.First_name.Inclass0.pdf."
-Then upload in the D2L:Assessments:Inclass0 folder.
+Then upload both RMD and PDF files in the D2L:Assessments:Assignments:Inclass0.
