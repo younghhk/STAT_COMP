@@ -4,7 +4,7 @@
 
 **[Syllabus](https://app.box.com/s/4l7zea2zvqa1kq3137tujqdx0opiif1z)**
 
-**Time & Place** M/W 	3:00 PM - 4:20 PM. 175 Brody Hall 
+**Time & Place** M/W 	3:00 PM - 4:20 PM. The new location: 214 Berkey Hall 
 
 **Office hours** Dr. Hong: Wells Hall C435; M, W 1-2P Or By appointment.
 
