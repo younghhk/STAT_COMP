@@ -198,7 +198,9 @@ body
 ```
 3. Import [recid.csv](https://app.box.com/s/5glnpw5iia8fwgzquevym91a3rsfye9e) data and create a new column, termed `married2`, which assigns  "Yes" to 1,  "No" to 0. Provide the appropriate summary statistics (depending on the data types) of each column. 
 ```r
-setwd("Change to your folder location)
+
+setwd("C:/mydir")   #or setwd("C:\\mydir")
+#save the data in the local folder, not One Drive
 recid<-read.csv("recid.csv",header=T)
 recid$married2<-ifelse(...)
 head(recid)
