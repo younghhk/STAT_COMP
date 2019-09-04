@@ -4,7 +4,7 @@
 
 **[Syllabus](https://app.box.com/s/4l7zea2zvqa1kq3137tujqdx0opiif1z)**
 
-**Time & Place** M/W 	3:00 PM - 4:20 PM. NEW ROOM: Wells Hall B110F
+**Time & Place** M/W 	3:00 PM - 4:20 PM. NEW ROOM: **Wells Hall B110F**
 
 **Office hours** Dr. Hong: Wells Hall C435; M, W 1-2P Or By appointment.
 
@@ -17,8 +17,8 @@ Dr. de los Campos: TBA
 
   1. [R Studio/R Markdown](https://github.com/younghhk/STAT_COMP/blob/master/Rmarkdown.md)
   2. [Introduction to R](https://github.com/younghhk/STAT_COMP/blob/master/RIntro.md)
-  3. [Data preparation and descriptive analyses](https://github.com/younghhk/STAT_COMP/blob/master/DESCRIPTIVE_STATS.md) 
-  4. loops, conditional statements, arrays, sibsetting, arrays, etc.
+  3. [Data preparation, loops, conditional statements, Inclass assignment 0](https://github.com/younghhk/STAT_COMP/blob/master/DESCRIPTIVE_STATS.md) 
+ 
  
  
 Reference: [Advanced R](https://adv-r.hadley.nz/index.html)
