@@ -3,7 +3,7 @@
 
 
 
-[Note](https://app.box.com/s/ipx4khiw11gonulpy206r510020nrbzx)
+[Note](https://app.box.com/s/96byijr3tg236us0m1j2j1j5bi1rhsn0)
 
 
 ## Rebuild OLS estimator manually in R
