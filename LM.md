@@ -3,7 +3,7 @@
 
 
 
-[Note](https://app.box.com/s/96byijr3tg236us0m1j2j1j5bi1rhsn0)
+[Note](https://github.com/younghhk/STAT_COMP/M2_Linear.html)
 
 
 ## Rebuild OLS estimator manually in R
