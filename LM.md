@@ -52,7 +52,7 @@ y <- as.matrix(y)
 beta <- 
  
 ## calculate residuals
-#  res = y - beta1 - beta2*X2
+#  res = y - Xbeta
 res <- as.matrix(   )
  
 ## define the number of observations (n) and the number of arameters (p)
