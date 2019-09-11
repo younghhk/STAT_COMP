@@ -74,7 +74,7 @@ p_value <-
 
 ## combine all necessary information
 output <- as.data.frame(cbind(beta,se,t,p_value))
-names(output) <- c("Estimate", "Std. Error","t","p-values)")
+names(output) <- c("Estimate", "Std. Error","t","p-values"))
 output
 }
 
