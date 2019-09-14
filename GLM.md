@@ -1,7 +1,12 @@
 # Generalized linear models (GLM)
 
-[Note](https://app.box.com/s/5dg969wafkwr4j0k1179xzruocgs98q9)
+Dataset
 
+[donner](https://app.box.com/s/4511synp42q9nzntzpspojclwr20ivm1)
+
+[crab](https://app.box.com/s/456boimp1otj0gp096ndfxxlwh7601u3)
+
+[Note](https://younghhk.github.io/STAT_COMP/M2_GLM.html#1)
 
 ## Inclass assignment #2 (Due 9/18 11:59PM).
 
