@@ -47,42 +47,6 @@ model=glm(survive~age+sex, data=donner, family=binomial("logit"))
 summary(model)$coefficients
 
 ```
-3.  Write a general function, NegLogLik, which computes the Poisson negative log likelihood for the count outcome variable and binomial negative log likelihood for the binary outcome.
-
- 
-```{r}
-NegLoglik=function(X,y,b){
-if () 
-statement1
-}
-else {
-statement2
-}
-
-return(-Loglik)
-}
-
-```
-4. Consider crab dataset.  Estimate coefficient for “W” with “Sa” being the outcome using the `optim` function. Compare the results with the estimates obtained by the `glm` function in `R`.
-
-```{r}
-crab=read.table(Choose.file()) ## choose crab.txt
-id=crab[,1]
-C=crab[,2]
-S=crab[,3]
-W=crab[,4]
-Wt=crab[,5]
-Sa=crab[,6]
-colnames(crab)=c("id","C","S","W","Wt","Sa")
-head(crab)
-
-b.ini=
-optim(fn=NegLoglik, X, y, par=b.ini)
-
-model=glm(Sa~W, family=(poisson(link=log))
-summary(model)$coefficients
-```
-
 
 
 [Back](https://github.com/younghhk/STAT_COMP/)
