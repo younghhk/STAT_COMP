@@ -21,7 +21,9 @@ Hand in the hard copy of the PDF file by Next Monday in class (extra 1 point).
  
 ```{r}
 NegLoglik=function(X,y,b){
-Loglik=
+eta=X%*%b
+p=exp(eta)/(1+exp(eta))
+Loglik=sum(ifelse(y==1,log(p),log(1-p)))
 return(-Loglik)
 }
 ```
@@ -29,13 +31,15 @@ return(-Loglik)
 
 ```
 donner=read.table(Choose.file()) ## choose donner.txt
-#survive=donner[,3]
-#age=donner[,1]
-#sex=donner[,2]
+survive=donner[,3]
+age=donner[,1]
+sex=donner[,2]
 colnames(donner)=c("age","sex","survive")
 head(donner)
 
-b.ini=
+b.ini=c(1,1)
+X=cbind(1,age,sex)
+y=survive
 optim(fn=NegLoglik, X, y, par=b.ini)  #By default `optim` searches for parameters, which minimize the function `fn`.
 
 
