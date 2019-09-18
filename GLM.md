@@ -37,10 +37,10 @@ sex=donner[,2]
 colnames(donner)=c("age","sex","survive")
 head(donner)
 
-b.ini=c(1,1)
+b.ini=c(0,0,0)
 X=cbind(1,age,sex)
 y=survive
-optim(fn=NegLoglik, X, y, par=b.ini)  #By default `optim` searches for parameters, which minimize the function `fn`.
+optim(fn=NegLoglik, X=X, y=y, par=b.ini)  #By default `optim` searches for parameters, which minimize the function `fn`.
 
 
 model=glm(survive~age+sex, data=donner, family=binomial("logit"))
