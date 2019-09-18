@@ -29,9 +29,9 @@ return(-Loglik)
 
 ```
 donner=read.table(Choose.file()) ## choose donner.txt
-survive=donner[,3]
-age=donner[,1]
-sex=donner[,2]
+#survive=donner[,3]
+#age=donner[,1]
+#sex=donner[,2]
 colnames(donner)=c("age","sex","survive")
 head(donner)
 
