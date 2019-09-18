@@ -40,46 +40,48 @@ They must be  equivalent.
 Create a PDF report using RMarkdown/knitr. Give the title of the report as "Last_name.First_name.inclass1.pdf."
 Then upload both RMD (5 points) and PDF (5 points) files in the D2L:Assessments: Assignments:inclass1.
 Hand in the hard copy of the PDF file by Next Monday in class (extra 1 point).
+
 ```{r, eval=FALSE}
-## Write a function called, LM, which builds OLS estimator and conduct statistical inference manually
- LM=function(X,y){
-#  define X matrix and y vector
-X <- as.matrix(cbind(1,X))
-y <- as.matrix(y)
- 
-#  estimate the coeficients beta
-#  beta = ((X'X)^(-1))X'y
-beta <- 
- 
-## calculate residuals
-#  res = y - Xbeta
-res <- as.matrix(   )
- 
-## define the number of observations (n) and the number of arameters (p)
-n <- 
-p <- 
- 
-## calculate the Variance-Covariance matrix (VCV)
-#  VCV = (1/(n-p))res'res(X'X)^(-1)
-VCV <-
- 
-## calculate standard errors (se) of coefficients
-se <- 
- 
-## calculate t
-t<-
-
-## calculate the p-values
-p_value <- 
-
-## combine all necessary information
-output <- as.data.frame(cbind(beta,se,t,p_value))
-names(output) <- c("Estimate", "Std. Error","t","p-values"))
-output
+LM <- function(X,y){
+  #  define X matrix and y vector
+  X <- as.matrix(cbind(1,X))
+  y <- as.matrix(y)
+  
+  #  estimate the coeficients beta
+  #  beta = ((X'X)^(-1))X'y
+  beta <- solve(t(X) %*% X) %*% t(X) %*% y
+  
+  ## calculate residuals
+  #  res = y - beta1 - beta2*X2
+  res <- as.matrix(y - X %*% beta)
+  
+  ## define the number of observations (n) and the number of arameters (p)
+  n <- dim(X)[1]
+  p <- dim(X)[2]
+  
+  ## calculate the Variance-Covariance matrix (VCV)
+  #  VCV = (1/(n-p))res'res(X'X)^(-1)
+  VCV <- 1/(n-p) * drop(t(res) %*% (res)) * solve(t(X) %*% X)
+  
+  ## calculate standard errors (se) of coefficients
+  se <- abs( sqrt( diag( VCV ) ) )
+  
+  ## calculate t
+  t <- beta / se
+  
+  ## calculate the p-values
+  p_value <- 2 * ( 1 - pt(abs(t) ,df = n-p) ) # since symmetric
+  
+  ## combine all necessary information
+  output <- as.data.frame(cbind(beta,se,t,p_value))
+  names(output) <- c("Estimate", "Std. Error","t","p-values")
+  row.names(output) <- c("Intercept", paste0("X", 1:(dim(X)[2]-1)))
+  output
 }
 
 ## compare the built-in `lm`function and manual output
- summary(lm())  
+LM(X, y)
+summary(lm(y ~ X, data = dat))  
 ```
 
 
