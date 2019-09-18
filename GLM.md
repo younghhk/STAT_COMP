@@ -30,7 +30,7 @@ return(-Loglik)
 ```
 donner=read.table(Choose.file()) ## choose donner.txt
 survive=donner[,3]
-age=donner[,1];
+age=donner[,1]
 sex=donner[,2]
 colnames(donner)=c("age","sex","survive")
 head(donner)
@@ -70,7 +70,7 @@ W=crab[,4]
 Wt=crab[,5]
 Sa=crab[,6]
 colnames(crab)=c("id","C","S","W","Wt","Sa")
-head(colnames)
+head(crab)
 
 b.ini=
 optim(fn=NegLoglik, X, y, par=b.ini)
