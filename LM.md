@@ -52,7 +52,7 @@ LM <- function(X,y){
   beta <- solve(t(X) %*% X) %*% t(X) %*% y
   
   ## calculate residuals
-  #  res = y - beta1 - beta2*X2
+  #  res = y - Xbeta
   res <- as.matrix(y - X %*% beta)
   
   ## define the number of observations (n) and the number of arameters (p)
@@ -64,7 +64,7 @@ LM <- function(X,y){
   VCV <- 1/(n-p) * drop(t(res) %*% (res)) * solve(t(X) %*% X)
   
   ## calculate standard errors (se) of coefficients
-  se <- abs( sqrt( diag( VCV ) ) )
+  se <-  sqrt( diag( VCV ) ) 
   
   ## calculate t
   t <- beta / se
