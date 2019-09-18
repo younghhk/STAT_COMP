@@ -35,7 +35,7 @@ summary(fit)
 We will also construct the OLS estimator manually and compare the results to the lm() output.
 They must be  equivalent.
 
-## Inclass Assignment #1
+## Inclass Assignment #1 (provided by Sang Kyu Lee)
 
 Create a PDF report using RMarkdown/knitr. Give the title of the report as "Last_name.First_name.inclass1.pdf."
 Then upload both RMD (5 points) and PDF (5 points) files in the D2L:Assessments: Assignments:inclass1.
