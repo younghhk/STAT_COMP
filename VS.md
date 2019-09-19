@@ -1,16 +1,13 @@
 # Variable screening methods
 
 
-Sure Independence Screening (SIS)
+Variable screening in high-dimensional space can be applied to many contemporary problems in scientific discovery and decision making such as disease classifications in computational biology and portfolio selection in finance.
 
-Fan and Lv (2008) introduced the concept of sure screening and proposed a sure screening method, Sure Independence Screening (SIS), to reduce dimensionality from high to a relatively large scale d thatis below sample size. 
-
-In a fairly general asymptotic framework, SIS is shown to have the sure screening property for even exponentially growing dimension.
+We briefly review the current development of the variable screening methods and perform the signal detection in high-dimensional settings.
 
 
-## Inclass Assignment 6 (Submit both RMD and PDF)
-[Inclass Assignment #6](https://app.box.com/s/fx2fkvvmyitjrpy4mwbj5565xrcacvaa)
 
+## Inclass Assignment 3 
 
 
 # Reference
