@@ -54,6 +54,7 @@ Reference: [Advanced R](https://adv-r.hadley.nz/index.html)
 ## Homeworks
 
 
+[HW1](https://younghhk.github.io/STAT_COMP/HW1.html#1)
 
 
 
