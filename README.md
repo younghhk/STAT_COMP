@@ -27,7 +27,7 @@ Reference: [Advanced R](https://adv-r.hadley.nz/index.html)
 
   1. [Linear regression models (Inclass assignment 1: Due 9/11)](https://github.com/younghhk/STAT_COMP/blob/master/LM.md)
   2. [Generalized linear models (Inclass assignment 2: Due 9/18)](https://github.com/younghhk/STAT_COMP/blob/master/GLM.md)
-  3. [Variable screening methods](https://github.com/younghhk/STAT_COMP/blob/master/VS.md) 
+  3. [Variable screening methods (Inclass assignment 3: Due 9/25)](https://github.com/younghhk/STAT_COMP/blob/master/VS.md) 
   4. [Survival models](https://github.com/younghhk/STAT_COMP/blob/master/SURVREG.md)
 
 **Exam 1 (October 14)**
