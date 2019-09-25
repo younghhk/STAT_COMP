@@ -28,7 +28,7 @@ Step 2: Rank Xj based on |beta_j| for j=1,...,p.
 
 Step 3: Record the rank of each covaraite, Xj, j=1,...,p. 
 
-Repeat Steps 1-3 for 100 simulated datasets. Compute the average ranks over 100 repetitions for each variable. What are the top 10 variables? 
+Repeat Steps 1-3 for 100 simulated datasets. Compute the average rank over 100 repetitions for each variable. What are the top 10 variables? 
 
 2.  Consider a linear model Y=3X1+3X2+3X3+3X4+3X5-7.5X6+e,
 where X1,...,Xp are p predictors from MVN(0, Sigma), e~ N(0,1)
@@ -38,7 +38,7 @@ sigma_{ii}=1, i=1,...,p and sigma_{ij}=rho, for i neq j.
 
 Specifically, let p=1000, n=200, and rho=0.5. 
 
-Conduct the same SIS procedure and compute the average ranks over 100 repetitions for each variable. What are the top 10 variables? 
+Conduct the same SIS procedure as in #1 and compute the average rank over 100 repetitions for each variable. What are the top 10 variables? 
 Is X6 selected among those top 10 variables?
 
 Now, let's perform the conditional sure independence screening. 
