@@ -28,8 +28,7 @@ Step 2: Rank Xj based on |beta_j| for j=1,...,p.
 
 Step 3: Record the rank of each covaraite, Xj, j=1,...,p. 
 
-Repeat Steps 1-3 for 100 simulated datasets. Compute the average rank over 100 repetitions for each variable. What are the top 3 variables? 
-
+Repeat Steps 1-3 for 100 simulated datasets. Compute the average rank over 100 repetitions for each variable. What are the rank of x1-x3?
 ```{r}
 library(MASS) #to use mvrnorm function
 nrep=5 #number of repetitions
@@ -54,7 +53,8 @@ print(i)
 }
 #takes 3-7 mins to compute
 
-apply(RANK,2,mean) #the avg rank of each variable over 100 repetitions
+out=apply(RANK,2,mean) #the avg rank of each variable over 100 repetitions
+rank(out)[1:3]
 ```
 
  
