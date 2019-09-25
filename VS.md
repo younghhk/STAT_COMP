@@ -18,7 +18,7 @@ where X1,...,Xp are p predictors from MVN(0, Sigma), e~ N(0,1)
 is a noise that is independent of the predictors, and
  Sigma = (sigma_{ij}) has entries sigma_{ii}=1, i=1,...,p and sigma_{ij}=rho, for i neq j.
 
-Specifically, let p=1000, n=70, and rho=0.5. 
+Specifically, let p=1000, n=200, and rho=0.5. 
 
 Let's perform the sure independence screening procedure. I.e.,
 
