@@ -30,7 +30,7 @@ Step 3: Record the rank of each covaraite, Xj, j=1,...,p.
 
 Repeat Steps 1-3 for 100 simulated datasets. Compute the average rank over 100 repetitions for each variable. What are the top 10 variables? 
 
-
+```{r}
 library(MASS) #to use mvrnorm function
 nrep=5 #number of repetitions
 n=200;p=1000;rho=0.5
@@ -55,7 +55,7 @@ print(i)
 #takes 3-7 mins to compute
 
 apply(RANK,2,mean) #the avg rank of each variable over 100 repetitions
-
+```
 
 2.  Consider a linear model Y=3X1+3X2+3X3+3X4+3X5-7.5X6+e,
 where X1,...,Xp are p predictors from MVN(0, Sigma), e~ N(0,1)
