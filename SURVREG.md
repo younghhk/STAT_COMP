@@ -12,7 +12,7 @@ To generate X from the Cox model, we can use the inverse sampling method.
 Assume that the baseline hazard has the exponential form,
 h0(x)=lambda and z has the Bernoulli distribution with parameter p=0.5 and beta=1.
 
-Obtain the summary statistics and draw the distribution of 100 randomly generated X.
+Obtain the summary statistics and draw the distribution of 100 randomly generated X when lambda=1.
 ```
 
 [Back](https://github.com/younghhk/STAT_COMP/)
