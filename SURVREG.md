@@ -5,7 +5,7 @@
 ## Inclass Assignment #4 
 
 ```{r}
-1. Write an `R` function that generates the time to event data given a data set with single binary covariate z (e.g. a treatment indicator).
+1. Write an `R` function that generates the time to event outcome from Cox model.
 To generate X from the Cox model, we can use the inverse sampling method.
 If U is uniform on (0,1) and S(x|z) is the conditional survival function derived from the Cox model.
 
