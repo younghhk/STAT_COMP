@@ -7,7 +7,7 @@
 ```{r}
 1. Write an `R` function that generates the time to event outcome from Cox model.
 To generate X from the Cox model, we can use the inverse sampling method.
-If U is uniform on (0,1) and S(x|z) is the conditional survival function derived from the Cox model.
+ Let U be uniform on (0,1) and S(x|z) be the conditional survival function derived from the Cox model.
 
 Assume that the baseline hazard has the exponential form,
 h0(x)=lambda and z has the Bernoulli distribution with parameter p=0.5 and beta=1.
