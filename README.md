@@ -57,4 +57,5 @@ Reference: [Advanced R](https://adv-r.hadley.nz/index.html)
 [HW1](https://younghhk.github.io/STAT_COMP/HW1.html#1)
 [HW2](https://younghhk.github.io/STAT_COMP/HW2.html#1)
 
-
+## Datasets
+[Crab](https://younghhk.github.io/STAT_COMP/crabdata.html)
