@@ -16,3 +16,20 @@ Obtain the summary statistics and draw the distribution of 100 randomly generate
 
 
 [Back](https://github.com/younghhk/STAT_COMP/)
+
+```
+lambda <- 1
+beta <- 1
+p <- 0.5
+z <- rbinom(100, 1, prob = p)
+
+sim.exp <- function(n,lambda, z, beta){
+  U <- runif(n, 0, 1)
+  X <- -log(U)/(lambda*exp(z * beta))
+  X
+}
+
+result <- sim.exp(100,lambda, z, beta)
+summary(result)
+hist(result)
+```
